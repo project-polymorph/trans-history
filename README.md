@@ -21,5 +21,5 @@
 
 为了方便管理和查看，这两种版本的生成文件各自存放在 `index/index_with_desc` 与 `index/index_without_desc` 目录下，文件名以对应的年份命名。借助这一方式，我们能够快速批量地输出多个年份的跨性别新闻索引初稿，供后续编辑或进一步审校使用。
 
-- [查看包含描述的索引](index/index_with_desc/README.md)  
-- [查看不包含描述的索引](index/index_without_desc/README.md)
+- [查看包含描述的索引](year_index/index_with_desc/README.md)  
+- [查看不包含描述的索引](year_index/index_without_desc/README.md)

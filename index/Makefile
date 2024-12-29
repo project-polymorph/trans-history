@@ -1,5 +1,5 @@
 HISTORICAL := 1980-1999
-RECENT := $(shell seq 1999 2024)
+RECENT := $(shell seq 2000 2024)
 SCRIPT := ../scripts/generate_index.py
 README_SCRIPT := ../scripts/generate_readme.py
 

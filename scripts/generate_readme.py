@@ -1,0 +1,60 @@
+import os
+import argparse
+from pathlib import Path
+import re
+
+def extract_year(filename):
+    # Extract year from filename like 2024.md or containing 4 digits
+    match = re.search(r'(\d{4})', filename)
+    return int(match.group(1)) if match else None
+
+def scan_directory(directory):
+    # Scan directory for markdown files and group by year
+    files_by_year = {}
+    for file in Path(directory).glob('**/*.md'):
+        if file.name == 'README.md':
+            continue
+        year = extract_year(file.name)
+        if year:
+            relative_path = file.relative_to(directory)
+            files_by_year.setdefault(year, []).append(str(relative_path))
+    return files_by_year
+
+def generate_readme(target_dir):
+    files_by_year = scan_directory(target_dir)
+    
+    content = ["# 跨性别历史时间线索引\n"]
+    
+    if not files_by_year:
+        content.append("\n未找到包含年份的markdown文件。")
+        return content
+
+    # Generate year index
+    content.append("\n## 年份索引\n")
+    
+    # Sort years in descending order
+    for year in sorted(files_by_year.keys(), reverse=True):
+        content.append(f"\n### {year}年\n")
+        for file in sorted(files_by_year[year]):
+            content.append(f"- [{file}]({file})")
+    
+    # Write to README.md in target directory
+    readme_path = Path(target_dir) / "README.md"
+    with open(readme_path, "w", encoding='utf-8') as f:
+        f.write("\n".join(content))
+    
+    print(f"索引已生成到: {readme_path}")
+
+def main():
+    parser = argparse.ArgumentParser(description='生成markdown文件索引')
+    parser.add_argument('directory', help='要扫描的目标目录')
+    args = parser.parse_args()
+    
+    if not os.path.isdir(args.directory):
+        print(f"错误: {args.directory} 不是有效目录")
+        return
+    
+    generate_readme(args.directory)
+
+if __name__ == "__main__":
+    main()

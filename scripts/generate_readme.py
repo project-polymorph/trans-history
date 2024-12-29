@@ -25,12 +25,17 @@ def generate_readme(target_dir):
     files_by_year = scan_directory(target_dir)
     now_str = datetime.now().strftime("%Y-%m-%d")
     
+    # Define descriptions based on directory type
+    is_with_desc = "with_desc" in str(target_dir)
+    desc_text = "这是一个中文跨性别相关新闻、研究、政策等事件的时间线索引，收录了各个年份重要的社会、文化、政策变迁记录。"
+    type_desc = "本索引包含详细事件描述，适合深入了解历史背景。" if is_with_desc else "本索引为简略版本，仅包含事件链接。"
+    
     content = []
     # Add front matter
     content.extend([
         "---",
         'title: "华语跨性别历史时间线索引"',
-        'description: "这是一个中文跨性别相关新闻、研究、政策等事件的时间线索引，收录了各个年份重要的社会、文化、政策变迁记录。"',
+        f'description: "{desc_text}"',
         f'date: "{now_str}"',
         "tags:",
         "  - 跨性别",
@@ -40,18 +45,14 @@ def generate_readme(target_dir):
         "---\n"
     ])
     
-    # Main content
+    # Main content with descriptions
     content.append("# 跨性别时间线索引\n")
+    content.append(f"{desc_text}\n")
+    content.append(f"> {type_desc}\n")
     
     if not files_by_year:
         content.append("\n未找到包含年份的markdown文件。")
     else:
-        # Add description based on directory type
-        if "with_desc" in str(target_dir):
-            content.append("> 本索引包含详细事件描述，适合深入了解历史背景。\n")
-        else:
-            content.append("> 本索引为简略版本，仅包含事件链接。\n")
-
         # Generate year index
         content.append("\n## 年份索引\n")
         

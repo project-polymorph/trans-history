@@ -1,9 +1,9 @@
-site_name: 档案template
-repo_url: https://transchinese.org/
-site_url: https://xxx.transchinese.org/
-site_description: '档案馆template'
-site_author: 多元性别中文数字图书馆
-copyright: '多元性别中文数字图书馆 2024'
+site_name: 跨性别华语编年录
+repo_url: https://github.com/project-polymorph/trans-history
+site_url: https://project-polymorph.github.io/trans-history/
+site_description: '跨性别华语编年录旨在以时间脉络为核心，系统整理与展示华语世界与跨性别议题相关的新闻报道、个人访谈、学术观点及社会回响。该项目聚焦于不同时期跨性别者所面临的社会文化环境、医疗条件和法律政策等要素，并兼具历史文献价值与现实关怀意义。'
+site_author: 性别多态图书馆
+copyright: '性别多态图书馆 2025'
 theme:
   name: material
   custom_dir: overrides

@@ -3,7 +3,7 @@ RECENT := $(shell seq 2000 2024)
 SCRIPT := ../scripts/generate_index.py
 README_SCRIPT := ../scripts/generate_readme.py
 
-all: historical recent readme
+all: historical recent 新闻报道/README.md
 
 historical: 新闻报道/historical 
 
@@ -19,7 +19,7 @@ recent: $(RECENT:%=新闻报道/%) $(RECENT:%=index_without_desc/%)
 
 readme: readme_with_desc readme_without_desc
 
-readme_with_desc:
+新闻报道/README.md:
 	python $(README_SCRIPT) 新闻报道
 
 .PHONY: all historical recent readme readme_with_desc readme_without_desc

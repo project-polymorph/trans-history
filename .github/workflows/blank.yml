@@ -51,10 +51,10 @@ jobs:
       # - name: Prepare site
       #   run: .github/site/prepare_site.sh
 
-      - name: Create docs directory
-        run: |
-          mkdir -p site
-          cp -r .github/*.yml ./
+      # - name: Create docs directory
+      #   run: |
+      #     mkdir -p site
+      #     cp -r .github/*.yml ./
 
       - run: mkdocs gh-deploy --force
 

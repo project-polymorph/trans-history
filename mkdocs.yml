@@ -1,0 +1,78 @@
+site_name: 档案template
+repo_url: https://transchinese.org/
+site_url: https://xxx.transchinese.org/
+site_description: '档案馆template'
+site_author: 多元性别中文数字图书馆
+copyright: '多元性别中文数字图书馆 2024'
+theme:
+  name: material
+  custom_dir: overrides
+  features:
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.action.edit
+    - navigation.footer
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.expand
+    - navigation.path
+    - navigation.top
+    - navigation.prune 
+    - navigation.indexes 
+    - navigation.tracking
+  palette:
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default 
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+  language: zh
+plugins:
+  - search
+  - social:
+      cards_layout_options:
+        font_family: Noto Sans SC
+  - rss:
+      match_path: ".*"
+      date_from_meta:
+        as_creation: date.created
+        as_update: date.updated
+  - git-authors
+  - git-revision-date-localized:
+      enable_creation_date: true
+extra:
+  analytics:
+    provider: google
+    property: G-NLEYWPXZ47
+  social:
+  - icon: /fontawesome/regular/envelope
+    name: send me an email
+    link: mailto:admin@transchinese.org
+  - icon: fontawesome/brands/x-twitter
+    link: https://x.com/transchineseorg
+  extra:
+    homepage: https://transchinese.org
+hooks:
+  - hooks/socialmedia.py
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg

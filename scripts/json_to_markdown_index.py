@@ -81,6 +81,16 @@ def render_markdown_from_grouped_data(grouped_data, include_desc=False):
                     # If no original link, use archive link as the main link
                     line = f"[{title}]({entry['url']})"
 
+                # Add author and tags if available
+                meta_parts = []
+                if entry.get("author") and entry["author"] != "未知":
+                    meta_parts.append(f"作者：{entry['author']}")
+                if entry.get("tags"):
+                    meta_parts.append(f"标签：{', '.join(entry['tags'])}")
+                
+                if meta_parts:
+                    line += f" ({' | '.join(meta_parts)})"
+
                 lines.append(line)
 
                 if include_desc and entry["desc"]:
@@ -96,10 +106,6 @@ def render_markdown_from_grouped_data(grouped_data, include_desc=False):
                     meta_parts = []
                     if entry.get("date"):
                         meta_parts.append(f"发布日期：{entry['date']}")
-                    if entry.get("author"):
-                        meta_parts.append(f"作者：{entry['author']}")
-                    if entry.get("tags"):
-                        meta_parts.append(f"标签：{', '.join(entry['tags'])}")
                     if entry.get("url"):
                         meta_parts.append(f"[存档链接]({entry['url']})")
                     

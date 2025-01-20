@@ -1,0 +1,537 @@
+{
+  "queries": {
+    "综合索引/json/historical.json:Historical news from news.transchinese.org": {
+      "last_update": "2025-01-20T21:50:15.694183",
+      "output_path": "综合索引/json/historical.json"
+    },
+    "综合索引/json/historical.json:Historical magazine articles from digital.transchinese.org": {
+      "last_update": "2025-01-20T21:50:17.877185",
+      "output_path": "综合索引/json/historical.json"
+    },
+    "综合索引/json/historical.json:2021-2025 digital from digital.transchinese.org": {
+      "last_update": "2025-01-20T21:50:19.926276",
+      "output_path": "综合索引/json/historical.json"
+    },
+    "综合索引/json/historical.json:2021-2025 magazine articles from digital.transchinese.org": {
+      "last_update": "2025-01-20T21:50:22.209402",
+      "output_path": "综合索引/json/historical.json"
+    },
+    "综合索引/json/historical.json:1990-2025 政策法规 from digital.transchinese.org": {
+      "last_update": "2025-01-20T21:50:24.429465",
+      "output_path": "综合索引/json/historical.json"
+    },
+    "综合索引/json/2000.json:2000 news from news.transchinese.org": {
+      "last_update": "2025-01-20T21:50:24.548289",
+      "output_path": "综合索引/json/2000.json"
+    },
+    "综合索引/json/2000.json:2000 magazine articles from digital.transchinese.org": {
+      "last_update": "2025-01-20T21:50:24.652628",
+      "output_path": "综合索引/json/2000.json"
+    },
+    "综合索引/json/2000.json:2000 digital from digital.transchinese.org": {
+      "last_update": "2025-01-20T21:50:24.772234",
+      "output_path": "综合索引/json/2000.json"
+    },
+    "综合索引/json/2001.json:2001 news from news.transchinese.org": {
+      "last_update": "2025-01-20T21:50:24.872295",
+      "output_path": "综合索引/json/2001.json"
+    },
+    "综合索引/json/2001.json:2001 magazine articles from digital.transchinese.org": {
+      "last_update": "2025-01-20T21:50:24.969878",
+      "output_path": "综合索引/json/2001.json"
+    },
+    "综合索引/json/2001.json:2001 academic literature from digital.transchinese.org": {
+      "last_update": "2025-01-20T21:50:25.074530",
+      "output_path": "综合索引/json/2001.json"
+    },
+    "综合索引/json/2001.json:2001 government documents from digital.transchinese.org": {
+      "last_update": "2025-01-20T21:50:25.180485",
+      "output_path": "综合索引/json/2001.json"
+    },
+    "综合索引/json/2001.json:2001 NGO reports from digital.transchinese.org": {
+      "last_update": "2025-01-20T21:50:25.281390",
+      "output_path": "综合索引/json/2001.json"
+    },
+    "综合索引/json/2002.json:2002 news from news.transchinese.org": {
+      "last_update": "2025-01-20T21:50:25.449052",
+      "output_path": "综合索引/json/2002.json"
+    },
+    "综合索引/json/2002.json:2002 magazine articles from digital.transchinese.org": {
+      "last_update": "2025-01-20T21:50:25.555208",
+      "output_path": "综合索引/json/2002.json"
+    },
+    "综合索引/json/2002.json:2002 academic literature from digital.transchinese.org": {
+      "last_update": "2025-01-20T21:50:25.655589",
+      "output_path": "综合索引/json/2002.json"
+    },
+    "综合索引/json/2002.json:2002 government documents from digital.transchinese.org": {
+      "last_update": "2025-01-20T21:50:25.760083",
+      "output_path": "综合索引/json/2002.json"
+    },
+    "综合索引/json/2002.json:2002 NGO reports from digital.transchinese.org": {
+      "last_update": "2025-01-20T21:50:25.873375",
+      "output_path": "综合索引/json/2002.json"
+    },
+    "综合索引/json/2003.json:2003 news from news.transchinese.org": {
+      "last_update": "2025-01-20T21:50:26.045044",
+      "output_path": "综合索引/json/2003.json"
+    },
+    "综合索引/json/2003.json:2003 magazine articles from digital.transchinese.org": {
+      "last_update": "2025-01-20T21:50:26.150990",
+      "output_path": "综合索引/json/2003.json"
+    },
+    "综合索引/json/2003.json:2003 academic literature from digital.transchinese.org": {
+      "last_update": "2025-01-20T21:50:26.254343",
+      "output_path": "综合索引/json/2003.json"
+    },
+    "综合索引/json/2003.json:2003 government documents from digital.transchinese.org": {
+      "last_update": "2025-01-20T21:50:26.356675",
+      "output_path": "综合索引/json/2003.json"
+    },
+    "综合索引/json/2003.json:2003 NGO reports from digital.transchinese.org": {
+      "last_update": "2025-01-20T21:50:26.461521",
+      "output_path": "综合索引/json/2003.json"
+    },
+    "综合索引/json/2004.json:2004 news from news.transchinese.org": {
+      "last_update": "2025-01-20T21:50:26.633589",
+      "output_path": "综合索引/json/2004.json"
+    },
+    "综合索引/json/2004.json:2004 magazine articles from digital.transchinese.org": {
+      "last_update": "2025-01-20T21:50:26.737884",
+      "output_path": "综合索引/json/2004.json"
+    },
+    "综合索引/json/2004.json:2004 academic literature from digital.transchinese.org": {
+      "last_update": "2025-01-20T21:50:26.874526",
+      "output_path": "综合索引/json/2004.json"
+    },
+    "综合索引/json/2004.json:2004 government documents from digital.transchinese.org": {
+      "last_update": "2025-01-20T21:50:26.971244",
+      "output_path": "综合索引/json/2004.json"
+    },
+    "综合索引/json/2004.json:2004 NGO reports from digital.transchinese.org": {
+      "last_update": "2025-01-20T21:50:27.072833",
+      "output_path": "综合索引/json/2004.json"
+    },
+    "综合索引/json/2005.json:2005 news from news.transchinese.org": {
+      "last_update": "2025-01-20T21:50:27.311247",
+      "output_path": "综合索引/json/2005.json"
+    },
+    "综合索引/json/2005.json:2005 magazine articles from digital.transchinese.org": {
+      "last_update": "2025-01-20T21:50:27.414525",
+      "output_path": "综合索引/json/2005.json"
+    },
+    "综合索引/json/2005.json:2005 academic literature from digital.transchinese.org": {
+      "last_update": "2025-01-20T21:50:27.516468",
+      "output_path": "综合索引/json/2005.json"
+    },
+    "综合索引/json/2005.json:2005 government documents from digital.transchinese.org": {
+      "last_update": "2025-01-20T21:50:27.618414",
+      "output_path": "综合索引/json/2005.json"
+    },
+    "综合索引/json/2005.json:2005 NGO reports from digital.transchinese.org": {
+      "last_update": "2025-01-20T21:50:27.716341",
+      "output_path": "综合索引/json/2005.json"
+    },
+    "综合索引/json/2006.json:2006 news from news.transchinese.org": {
+      "last_update": "2025-01-20T21:50:27.950997",
+      "output_path": "综合索引/json/2006.json"
+    },
+    "综合索引/json/2006.json:2006 magazine articles from digital.transchinese.org": {
+      "last_update": "2025-01-20T21:50:28.050845",
+      "output_path": "综合索引/json/2006.json"
+    },
+    "综合索引/json/2006.json:2006 academic literature from digital.transchinese.org": {
+      "last_update": "2025-01-20T21:50:28.153037",
+      "output_path": "综合索引/json/2006.json"
+    },
+    "综合索引/json/2006.json:2006 government documents from digital.transchinese.org": {
+      "last_update": "2025-01-20T21:50:28.252173",
+      "output_path": "综合索引/json/2006.json"
+    },
+    "综合索引/json/2006.json:2006 NGO reports from digital.transchinese.org": {
+      "last_update": "2025-01-20T21:50:28.371298",
+      "output_path": "综合索引/json/2006.json"
+    },
+    "综合索引/json/2007.json:2007 news from news.transchinese.org": {
+      "last_update": "2025-01-20T21:50:28.577185",
+      "output_path": "综合索引/json/2007.json"
+    },
+    "综合索引/json/2007.json:2007 magazine articles from digital.transchinese.org": {
+      "last_update": "2025-01-20T21:50:28.683827",
+      "output_path": "综合索引/json/2007.json"
+    },
+    "综合索引/json/2007.json:2007 academic literature from digital.transchinese.org": {
+      "last_update": "2025-01-20T21:50:28.786562",
+      "output_path": "综合索引/json/2007.json"
+    },
+    "综合索引/json/2007.json:2007 government documents from digital.transchinese.org": {
+      "last_update": "2025-01-20T21:50:28.903978",
+      "output_path": "综合索引/json/2007.json"
+    },
+    "综合索引/json/2007.json:2007 NGO reports from digital.transchinese.org": {
+      "last_update": "2025-01-20T21:50:29.008849",
+      "output_path": "综合索引/json/2007.json"
+    },
+    "综合索引/json/2008.json:2008 news from news.transchinese.org": {
+      "last_update": "2025-01-20T21:50:29.179948",
+      "output_path": "综合索引/json/2008.json"
+    },
+    "综合索引/json/2008.json:2008 magazine articles from digital.transchinese.org": {
+      "last_update": "2025-01-20T21:50:29.280517",
+      "output_path": "综合索引/json/2008.json"
+    },
+    "综合索引/json/2008.json:2008 academic literature from digital.transchinese.org": {
+      "last_update": "2025-01-20T21:50:29.385912",
+      "output_path": "综合索引/json/2008.json"
+    },
+    "综合索引/json/2008.json:2008 government documents from digital.transchinese.org": {
+      "last_update": "2025-01-20T21:50:29.518734",
+      "output_path": "综合索引/json/2008.json"
+    },
+    "综合索引/json/2008.json:2008 NGO reports from digital.transchinese.org": {
+      "last_update": "2025-01-20T21:50:29.653034",
+      "output_path": "综合索引/json/2008.json"
+    },
+    "综合索引/json/2009.json:2009 news from news.transchinese.org": {
+      "last_update": "2025-01-20T21:50:29.884655",
+      "output_path": "综合索引/json/2009.json"
+    },
+    "综合索引/json/2009.json:2009 magazine articles from digital.transchinese.org": {
+      "last_update": "2025-01-20T21:50:29.988463",
+      "output_path": "综合索引/json/2009.json"
+    },
+    "综合索引/json/2009.json:2009 academic literature from digital.transchinese.org": {
+      "last_update": "2025-01-20T21:50:30.090343",
+      "output_path": "综合索引/json/2009.json"
+    },
+    "综合索引/json/2009.json:2009 government documents from digital.transchinese.org": {
+      "last_update": "2025-01-20T21:50:30.196831",
+      "output_path": "综合索引/json/2009.json"
+    },
+    "综合索引/json/2009.json:2009 NGO reports from digital.transchinese.org": {
+      "last_update": "2025-01-20T21:50:30.308092",
+      "output_path": "综合索引/json/2009.json"
+    },
+    "综合索引/json/2010.json:2010 news from news.transchinese.org": {
+      "last_update": "2025-01-20T21:50:30.425776",
+      "output_path": "综合索引/json/2010.json"
+    },
+    "综合索引/json/2010.json:2010 magazine articles from digital.transchinese.org": {
+      "last_update": "2025-01-20T21:50:30.534121",
+      "output_path": "综合索引/json/2010.json"
+    },
+    "综合索引/json/2010.json:2010 academic literature from digital.transchinese.org": {
+      "last_update": "2025-01-20T21:50:30.635664",
+      "output_path": "综合索引/json/2010.json"
+    },
+    "综合索引/json/2010.json:2010 government documents from digital.transchinese.org": {
+      "last_update": "2025-01-20T21:50:30.747805",
+      "output_path": "综合索引/json/2010.json"
+    },
+    "综合索引/json/2010.json:2010 NGO reports from digital.transchinese.org": {
+      "last_update": "2025-01-20T21:50:30.854457",
+      "output_path": "综合索引/json/2010.json"
+    },
+    "综合索引/json/2011.json:2011 news from news.transchinese.org": {
+      "last_update": "2025-01-20T21:50:31.023488",
+      "output_path": "综合索引/json/2011.json"
+    },
+    "综合索引/json/2011.json:2011 magazine articles from digital.transchinese.org": {
+      "last_update": "2025-01-20T21:50:31.134858",
+      "output_path": "综合索引/json/2011.json"
+    },
+    "综合索引/json/2011.json:2011 academic literature from digital.transchinese.org": {
+      "last_update": "2025-01-20T21:50:31.293821",
+      "output_path": "综合索引/json/2011.json"
+    },
+    "综合索引/json/2011.json:2011 government documents from digital.transchinese.org": {
+      "last_update": "2025-01-20T21:50:31.395012",
+      "output_path": "综合索引/json/2011.json"
+    },
+    "综合索引/json/2011.json:2011 NGO reports from digital.transchinese.org": {
+      "last_update": "2025-01-20T21:50:31.500683",
+      "output_path": "综合索引/json/2011.json"
+    },
+    "综合索引/json/2012.json:2012 news from news.transchinese.org": {
+      "last_update": "2025-01-20T21:50:31.725952",
+      "output_path": "综合索引/json/2012.json"
+    },
+    "综合索引/json/2012.json:2012 magazine articles from digital.transchinese.org": {
+      "last_update": "2025-01-20T21:50:31.827036",
+      "output_path": "综合索引/json/2012.json"
+    },
+    "综合索引/json/2012.json:2012 academic literature from digital.transchinese.org": {
+      "last_update": "2025-01-20T21:50:31.932141",
+      "output_path": "综合索引/json/2012.json"
+    },
+    "综合索引/json/2012.json:2012 government documents from digital.transchinese.org": {
+      "last_update": "2025-01-20T21:50:32.037627",
+      "output_path": "综合索引/json/2012.json"
+    },
+    "综合索引/json/2012.json:2012 NGO reports from digital.transchinese.org": {
+      "last_update": "2025-01-20T21:50:32.139340",
+      "output_path": "综合索引/json/2012.json"
+    },
+    "综合索引/json/2013.json:2013 news from news.transchinese.org": {
+      "last_update": "2025-01-20T21:50:32.320307",
+      "output_path": "综合索引/json/2013.json"
+    },
+    "综合索引/json/2013.json:2013 magazine articles from digital.transchinese.org": {
+      "last_update": "2025-01-20T21:50:32.419545",
+      "output_path": "综合索引/json/2013.json"
+    },
+    "综合索引/json/2013.json:2013 academic literature from digital.transchinese.org": {
+      "last_update": "2025-01-20T21:50:32.535872",
+      "output_path": "综合索引/json/2013.json"
+    },
+    "综合索引/json/2013.json:2013 government documents from digital.transchinese.org": {
+      "last_update": "2025-01-20T21:50:32.640810",
+      "output_path": "综合索引/json/2013.json"
+    },
+    "综合索引/json/2013.json:2013 NGO reports from digital.transchinese.org": {
+      "last_update": "2025-01-20T21:50:32.747580",
+      "output_path": "综合索引/json/2013.json"
+    },
+    "综合索引/json/2014.json:2014 news from news.transchinese.org": {
+      "last_update": "2025-01-20T21:50:32.869288",
+      "output_path": "综合索引/json/2014.json"
+    },
+    "综合索引/json/2014.json:2014 magazine articles from digital.transchinese.org": {
+      "last_update": "2025-01-20T21:50:32.975061",
+      "output_path": "综合索引/json/2014.json"
+    },
+    "综合索引/json/2014.json:2014 academic literature from digital.transchinese.org": {
+      "last_update": "2025-01-20T21:50:33.076481",
+      "output_path": "综合索引/json/2014.json"
+    },
+    "综合索引/json/2014.json:2014 government documents from digital.transchinese.org": {
+      "last_update": "2025-01-20T21:50:33.180760",
+      "output_path": "综合索引/json/2014.json"
+    },
+    "综合索引/json/2014.json:2014 NGO reports from digital.transchinese.org": {
+      "last_update": "2025-01-20T21:50:33.288877",
+      "output_path": "综合索引/json/2014.json"
+    },
+    "综合索引/json/2015.json:2015 news from news.transchinese.org": {
+      "last_update": "2025-01-20T21:50:33.403358",
+      "output_path": "综合索引/json/2015.json"
+    },
+    "综合索引/json/2015.json:2015 magazine articles from digital.transchinese.org": {
+      "last_update": "2025-01-20T21:50:33.503596",
+      "output_path": "综合索引/json/2015.json"
+    },
+    "综合索引/json/2015.json:2015 academic literature from digital.transchinese.org": {
+      "last_update": "2025-01-20T21:50:33.616212",
+      "output_path": "综合索引/json/2015.json"
+    },
+    "综合索引/json/2015.json:2015 government documents from digital.transchinese.org": {
+      "last_update": "2025-01-20T21:50:33.751164",
+      "output_path": "综合索引/json/2015.json"
+    },
+    "综合索引/json/2015.json:2015 NGO reports from digital.transchinese.org": {
+      "last_update": "2025-01-20T21:50:33.860151",
+      "output_path": "综合索引/json/2015.json"
+    },
+    "综合索引/json/2016.json:2016 news from news.transchinese.org": {
+      "last_update": "2025-01-20T21:50:34.105309",
+      "output_path": "综合索引/json/2016.json"
+    },
+    "综合索引/json/2016.json:2016 magazine articles from digital.transchinese.org": {
+      "last_update": "2025-01-20T21:50:34.203861",
+      "output_path": "综合索引/json/2016.json"
+    },
+    "综合索引/json/2016.json:2016 academic literature from digital.transchinese.org": {
+      "last_update": "2025-01-20T21:50:34.302980",
+      "output_path": "综合索引/json/2016.json"
+    },
+    "综合索引/json/2016.json:2016 government documents from digital.transchinese.org": {
+      "last_update": "2025-01-20T21:50:34.409560",
+      "output_path": "综合索引/json/2016.json"
+    },
+    "综合索引/json/2016.json:2016 NGO reports from digital.transchinese.org": {
+      "last_update": "2025-01-20T21:50:34.514772",
+      "output_path": "综合索引/json/2016.json"
+    },
+    "综合索引/json/2017.json:2017 news from news.transchinese.org": {
+      "last_update": "2025-01-20T21:50:34.763449",
+      "output_path": "综合索引/json/2017.json"
+    },
+    "综合索引/json/2017.json:2017 magazine articles from digital.transchinese.org": {
+      "last_update": "2025-01-20T21:50:34.870209",
+      "output_path": "综合索引/json/2017.json"
+    },
+    "综合索引/json/2017.json:2017 academic literature from digital.transchinese.org": {
+      "last_update": "2025-01-20T21:50:35.040585",
+      "output_path": "综合索引/json/2017.json"
+    },
+    "综合索引/json/2017.json:2017 government documents from digital.transchinese.org": {
+      "last_update": "2025-01-20T21:50:35.145987",
+      "output_path": "综合索引/json/2017.json"
+    },
+    "综合索引/json/2017.json:2017 NGO reports from digital.transchinese.org": {
+      "last_update": "2025-01-20T21:50:35.305626",
+      "output_path": "综合索引/json/2017.json"
+    },
+    "综合索引/json/2018.json:2018 news from news.transchinese.org": {
+      "last_update": "2025-01-20T21:50:35.432355",
+      "output_path": "综合索引/json/2018.json"
+    },
+    "综合索引/json/2018.json:2018 magazine articles from digital.transchinese.org": {
+      "last_update": "2025-01-20T21:50:35.537933",
+      "output_path": "综合索引/json/2018.json"
+    },
+    "综合索引/json/2018.json:2018 academic literature from digital.transchinese.org": {
+      "last_update": "2025-01-20T21:50:35.638482",
+      "output_path": "综合索引/json/2018.json"
+    },
+    "综合索引/json/2018.json:2018 government documents from digital.transchinese.org": {
+      "last_update": "2025-01-20T21:50:35.740420",
+      "output_path": "综合索引/json/2018.json"
+    },
+    "综合索引/json/2018.json:2018 NGO reports from digital.transchinese.org": {
+      "last_update": "2025-01-20T21:50:35.842428",
+      "output_path": "综合索引/json/2018.json"
+    },
+    "综合索引/json/2019.json:2019 news from news.transchinese.org": {
+      "last_update": "2025-01-20T21:50:36.079401",
+      "output_path": "综合索引/json/2019.json"
+    },
+    "综合索引/json/2019.json:2019 magazine articles from digital.transchinese.org": {
+      "last_update": "2025-01-20T21:50:36.176978",
+      "output_path": "综合索引/json/2019.json"
+    },
+    "综合索引/json/2019.json:2019 academic literature from digital.transchinese.org": {
+      "last_update": "2025-01-20T21:50:36.355978",
+      "output_path": "综合索引/json/2019.json"
+    },
+    "综合索引/json/2019.json:2019 government documents from digital.transchinese.org": {
+      "last_update": "2025-01-20T21:50:36.475333",
+      "output_path": "综合索引/json/2019.json"
+    },
+    "综合索引/json/2019.json:2019 NGO reports from digital.transchinese.org": {
+      "last_update": "2025-01-20T21:50:36.580316",
+      "output_path": "综合索引/json/2019.json"
+    },
+    "综合索引/json/2020.json:2020 news from news.transchinese.org": {
+      "last_update": "2025-01-20T21:50:36.752280",
+      "output_path": "综合索引/json/2020.json"
+    },
+    "综合索引/json/2020.json:2020 magazine articles from digital.transchinese.org": {
+      "last_update": "2025-01-20T21:50:36.858130",
+      "output_path": "综合索引/json/2020.json"
+    },
+    "综合索引/json/2020.json:2020 academic literature from digital.transchinese.org": {
+      "last_update": "2025-01-20T21:50:36.965016",
+      "output_path": "综合索引/json/2020.json"
+    },
+    "综合索引/json/2020.json:2020 government documents from digital.transchinese.org": {
+      "last_update": "2025-01-20T21:50:37.069828",
+      "output_path": "综合索引/json/2020.json"
+    },
+    "综合索引/json/2020.json:2020 NGO reports from digital.transchinese.org": {
+      "last_update": "2025-01-20T21:50:37.171278",
+      "output_path": "综合索引/json/2020.json"
+    },
+    "综合索引/json/2021.json:2021 news from news.transchinese.org": {
+      "last_update": "2025-01-20T21:50:37.420501",
+      "output_path": "综合索引/json/2021.json"
+    },
+    "综合索引/json/2021.json:2021 magazine articles from digital.transchinese.org": {
+      "last_update": "2025-01-20T21:50:37.522652",
+      "output_path": "综合索引/json/2021.json"
+    },
+    "综合索引/json/2021.json:2021 academic literature from digital.transchinese.org": {
+      "last_update": "2025-01-20T21:50:37.626866",
+      "output_path": "综合索引/json/2021.json"
+    },
+    "综合索引/json/2021.json:2021 government documents from digital.transchinese.org": {
+      "last_update": "2025-01-20T21:50:37.733623",
+      "output_path": "综合索引/json/2021.json"
+    },
+    "综合索引/json/2021.json:2021 NGO reports from digital.transchinese.org": {
+      "last_update": "2025-01-20T21:50:37.845257",
+      "output_path": "综合索引/json/2021.json"
+    },
+    "综合索引/json/2022.json:2022 news from news.transchinese.org": {
+      "last_update": "2025-01-20T21:50:38.030278",
+      "output_path": "综合索引/json/2022.json"
+    },
+    "综合索引/json/2022.json:2022 magazine articles from digital.transchinese.org": {
+      "last_update": "2025-01-20T21:50:38.135544",
+      "output_path": "综合索引/json/2022.json"
+    },
+    "综合索引/json/2022.json:2022 academic literature from digital.transchinese.org": {
+      "last_update": "2025-01-20T21:50:38.312402",
+      "output_path": "综合索引/json/2022.json"
+    },
+    "综合索引/json/2022.json:2022 government documents from digital.transchinese.org": {
+      "last_update": "2025-01-20T21:50:38.421556",
+      "output_path": "综合索引/json/2022.json"
+    },
+    "综合索引/json/2022.json:2022 NGO reports from digital.transchinese.org": {
+      "last_update": "2025-01-20T21:50:38.530745",
+      "output_path": "综合索引/json/2022.json"
+    },
+    "综合索引/json/2023.json:2023 news from news.transchinese.org": {
+      "last_update": "2025-01-20T21:50:38.724091",
+      "output_path": "综合索引/json/2023.json"
+    },
+    "综合索引/json/2023.json:2023 magazine articles from digital.transchinese.org": {
+      "last_update": "2025-01-20T21:50:38.827911",
+      "output_path": "综合索引/json/2023.json"
+    },
+    "综合索引/json/2023.json:2023 academic literature from digital.transchinese.org": {
+      "last_update": "2025-01-20T21:50:38.991851",
+      "output_path": "综合索引/json/2023.json"
+    },
+    "综合索引/json/2023.json:2023 government documents from digital.transchinese.org": {
+      "last_update": "2025-01-20T21:50:39.100456",
+      "output_path": "综合索引/json/2023.json"
+    },
+    "综合索引/json/2023.json:2023 NGO reports from digital.transchinese.org": {
+      "last_update": "2025-01-20T21:50:39.204921",
+      "output_path": "综合索引/json/2023.json"
+    },
+    "综合索引/json/2024.json:2024 news from news.transchinese.org": {
+      "last_update": "2025-01-20T21:50:39.470939",
+      "output_path": "综合索引/json/2024.json"
+    },
+    "综合索引/json/2024.json:2024 magazine articles from digital.transchinese.org": {
+      "last_update": "2025-01-20T21:50:39.578848",
+      "output_path": "综合索引/json/2024.json"
+    },
+    "综合索引/json/2024.json:2024 academic literature from digital.transchinese.org": {
+      "last_update": "2025-01-20T21:50:39.681844",
+      "output_path": "综合索引/json/2024.json"
+    },
+    "综合索引/json/2024.json:2024 government documents from digital.transchinese.org": {
+      "last_update": "2025-01-20T21:50:39.786555",
+      "output_path": "综合索引/json/2024.json"
+    },
+    "综合索引/json/2024.json:2024 NGO reports from digital.transchinese.org": {
+      "last_update": "2025-01-20T21:50:39.895225",
+      "output_path": "综合索引/json/2024.json"
+    },
+    "综合索引/json/2025.json:2025 news from news.transchinese.org": {
+      "last_update": "2025-01-20T21:50:40.028391",
+      "output_path": "综合索引/json/2025.json"
+    },
+    "综合索引/json/2025.json:2025 magazine articles from digital.transchinese.org": {
+      "last_update": "2025-01-20T21:50:40.129202",
+      "output_path": "综合索引/json/2025.json"
+    },
+    "综合索引/json/2025.json:2025 academic literature from digital.transchinese.org": {
+      "last_update": "2025-01-20T21:50:40.226986",
+      "output_path": "综合索引/json/2025.json"
+    },
+    "综合索引/json/2025.json:2025 government documents from digital.transchinese.org": {
+      "last_update": "2025-01-20T21:50:40.331824",
+      "output_path": "综合索引/json/2025.json"
+    },
+    "综合索引/json/2025.json:2025 NGO reports from digital.transchinese.org": {
+      "last_update": "2025-01-20T21:50:40.434327",
+      "output_path": "综合索引/json/2025.json"
+    }
+  },
+  "last_update": "2025-01-20T21:50:40.434877"
+}

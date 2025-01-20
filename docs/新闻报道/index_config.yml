@@ -1,15 +1,15 @@
 seo:
-  title: "华语跨性别与多元性别信息导航"
-  description: "本目录收录了跨性别与多元性别相关新闻、学术文献与公开档案等内容与存档，按地区和月份分类。"
+  title: "华语跨性别与多元性别新闻索引"
+  description: "本目录收录了跨性别与多元性别相关新闻内容与存档，按地区和月份分类，以供索引与分析。"
   tags:
     - 跨性别
     - 多元性别
     - 信息导航
 
-domains:
-  - name: news.transchinese.org
-    text: "跨性别与多元性别相关新闻"
-    introduction: "这里收录的是来自 news.transchinese.org 的新闻条目，按地区和月份排列。"
-  - name: digital.transchinese.org
-    text: "跨性别与多元性别相关文档"
-    introduction: "这里收录了学术论文、公共档案、官方文档等数字化资料。"
+# domains:
+#   - name: news.transchinese.org
+#     text: "跨性别与多元性别相关新闻"
+#     introduction: "这里收录的是来自 news.transchinese.org 的新闻条目，按地区和月份排列。"
+  # - name: digital.transchinese.org
+  #   text: "跨性别与多元性别相关文档"
+  #   introduction: "这里收录了学术论文、公共档案、官方文档等数字化资料。"

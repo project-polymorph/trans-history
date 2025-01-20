@@ -1,28 +1,63 @@
 HISTORICAL := 1980-1999
 RECENT := $(shell seq 2000 2024)
-SCRIPT := ../scripts/generate_index.py
+FETCH_SCRIPT := ../scripts/fetch_data.py
+MARKDOWN_SCRIPT := ../scripts/json_to_markdown.py
 README_SCRIPT := ../scripts/generate_readme.py
+JSON_DIR := 新闻报道/json
 
-all: historical recent 新闻报道/README.md
+all: fetch generate readme
 
-historical: 新闻报道/historical 
+# Fetch data targets
+fetch: fetch_historical fetch_recent
 
-新闻报道/historical:
+fetch_historical: $(JSON_DIR)/historical.json
+
+$(JSON_DIR)/historical.json:
+	@mkdir -p 新闻报道 $(JSON_DIR)
+	python $(FETCH_SCRIPT) \
+		--years $(HISTORICAL) \
+		--domains news.transchinese.org \
+		--output $@ \
+		--append
+
+fetch_recent: $(RECENT:%=$(JSON_DIR)/%.json)
+
+$(JSON_DIR)/%.json:
+	@mkdir -p 新闻报道 $(JSON_DIR)
+	python $(FETCH_SCRIPT) \
+		--years $* \
+		--domains news.transchinese.org \
+		--output $@ \
+		--append
+
+# Generate markdown targets
+generate: generate_historical generate_recent
+
+generate_historical: 新闻报道/$(HISTORICAL).md
+
+新闻报道/$(HISTORICAL).md: $(JSON_DIR)/historical.json
+	python $(MARKDOWN_SCRIPT) \
+		--input $< \
+		--output 新闻报道/$(HISTORICAL).md \
+		--description \
+		--config 新闻报道/index_config.yml
+
+generate_recent: $(RECENT:%=新闻报道/%.md)
+
+新闻报道/%.md: $(JSON_DIR)/%.json
 	@mkdir -p 新闻报道
-	python $(SCRIPT) --years $(HISTORICAL) -d --output 新闻报道/$(HISTORICAL).md --config 新闻报道/index_config.yml
-
-recent: $(RECENT:%=新闻报道/%) $(RECENT:%=index_without_desc/%)
-
-新闻报道/%: 
-	@mkdir -p 新闻报道
-	python $(SCRIPT) --years $* -d --output 新闻报道/$*.md --config 新闻报道/index_config.yml
+	python $(MARKDOWN_SCRIPT) \
+		--input $< \
+		--output 新闻报道/$*.md \
+		--description \
+		--config 新闻报道/index_config.yml
 
 readme: readme_with_desc readme_without_desc
 
 新闻报道/README.md:
 	python $(README_SCRIPT) 新闻报道
 
-.PHONY: all historical recent readme readme_with_desc readme_without_desc
+.PHONY: all fetch generate readme fetch_historical fetch_recent generate_historical generate_recent readme_with_desc readme_without_desc
 
 clean:
-	rm -rf 新闻报道/*.md
+	rm -rf 新闻报道/*.md $(JSON_DIR)

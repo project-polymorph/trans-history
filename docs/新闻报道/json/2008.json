@@ -1,14 +1,28 @@
 {
-  "metadata": {
-    "query_term": "",
-    "years": [
-      2008
-    ],
-    "domains": [
-      "news.transchinese.org"
-    ],
-    "fetch_time": "2025-01-19T19:22:46.267444"
-  },
+  "metadata": [
+    {
+      "query_term": "",
+      "years": [
+        "2008"
+      ],
+      "domains": [
+        "news.transchinese.org"
+      ],
+      "fetch_time": "2025-01-20T02:34:58.418442",
+      "description": "2008 news from news.transchinese.org"
+    },
+    {
+      "query_term": "杂志及新闻报道",
+      "years": [
+        "2008"
+      ],
+      "domains": [
+        "digital.transchinese.org"
+      ],
+      "fetch_time": "2025-01-20T02:34:58.607232",
+      "description": "2008 magazine articles from digital.transchinese.org"
+    }
+  ],
   "items": [
     {
       "url": "https://news.transchinese.org/未分类/news_20岁少女8年梦想当男儿",
@@ -1565,6 +1579,27 @@
       "format": "Markdown",
       "size": 1535,
       "link": "https://news.sina.cn/sa/2008-10-08/detail-ikkntian0983316.d.html"
+    },
+    {
+      "url": "https://digital.transchinese.org/杂志及新闻报道/中国大陆/变性人户口被许可易性的法律意义_本报记者_李青_法制日报_page",
+      "description": "这篇文章来自法制日报，由记者李青撰写，报道了江西省公安厅近日出台的针对变性人户口登记性别变更的政策。文章强调了我国法律在承认变性手术和心理性别方面的空白，且大多数变性者在术后面临户口、身份证等证件无法更改的困境。文中讲述了个案胡章亮的经历，反映变性人对法律承认的渴望，以及新政策带来的希望。政府的这一政策标志着江西成为全国第二个允许变性人更改户口性别的省份，显示了对变性人群体基本权利的关注与保障。文章还提到其他省份在处理类似问题时展现出的灵活性，最终呼吁社会对变性人应有的关怀与理解。",
+      "tags": [
+        "变性人",
+        "法律政策",
+        "户口登记",
+        "性别变更",
+        "社会关注",
+        "个人权利",
+        "变性手术",
+        "江西省"
+      ],
+      "type": "document",
+      "author": "李青，法制日报",
+      "date": "2008-12-04",
+      "region": "中国大陆",
+      "format": "PDF Document",
+      "size": 21437,
+      "link": "unknown"
     }
   ]
 }

@@ -1,14 +1,28 @@
 {
-  "metadata": {
-    "query_term": "",
-    "years": [
-      2018
-    ],
-    "domains": [
-      "news.transchinese.org"
-    ],
-    "fetch_time": "2025-01-19T19:22:53.250300"
-  },
+  "metadata": [
+    {
+      "query_term": "",
+      "years": [
+        "2018"
+      ],
+      "domains": [
+        "news.transchinese.org"
+      ],
+      "fetch_time": "2025-01-20T02:35:03.497696",
+      "description": "2018 news from news.transchinese.org"
+    },
+    {
+      "query_term": "杂志及新闻报道",
+      "years": [
+        "2018"
+      ],
+      "domains": [
+        "digital.transchinese.org"
+      ],
+      "fetch_time": "2025-01-20T02:35:03.679942",
+      "description": "2018 magazine articles from digital.transchinese.org"
+    }
+  ],
   "items": [
     {
       "url": "https://news.transchinese.org/未分类/211_变性手术_-_中国人民公安大学出版社",
@@ -3396,6 +3410,26 @@
       "format": "Markdown",
       "size": 2535,
       "link": "https://www.voachinese.com/a/news-china-sina-weibo-backtracks-from-gay-content-ban-after-outrage-20180416/4350273.html"
+    },
+    {
+      "url": "https://digital.transchinese.org/杂志及新闻报道/中国大陆/18岁男孩在快捷酒店里接受变性手术_page",
+      "description": "本文件是有关一名18岁男孩在快捷酒店接受非法变性手术的报道。文件详细描述了该男孩小斌（化名）的背景和经历。他自小学三年级时就开始偷偷穿女装，逐渐确认了自己是一个女性，并萌生了变性的想法。为了实现这一愿望，小斌通过网络联系到了自称能够进行变性手术的犯罪嫌疑人小俊（化名），而这一手术竟在条件简陋的快捷酒店内进行。小俊的手术技能来源于网络教程，缺乏医学背景。手术过程中，小俊为小斌进行了切除睾丸的手术，并在整个过程中小斌需要支付6000元手术费。虽然小斌的父母在得知此事后报警，但小俊因涉嫌非法行医而被检察院起诉。该事件反映了跨性别者在中国面对的法律和社会环境，以及在寻求身份认同和身体转变时所经历的危险和困难。",
+      "tags": [
+        "跨性别",
+        "变性手术",
+        "非法行医",
+        "社会问题",
+        "青春期心理",
+        "医疗安全",
+        "性别认同"
+      ],
+      "type": "document",
+      "author": "未知",
+      "date": "2018-08-30",
+      "region": "中国大陆",
+      "format": "PDF Document",
+      "size": 1689844,
+      "link": "http://zjfzb.zjol.com.cn/images/2018-08/30/f2018083000016.pdf"
     }
   ]
 }

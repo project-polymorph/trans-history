@@ -88,28 +88,25 @@ def render_markdown_from_grouped_data(grouped_data, include_desc=False):
         lines.append("")
     return "\n".join(lines)
 
-def main():
-    parser = argparse.ArgumentParser(description='Generate markdown from JSON data and YAML config.')
-    parser.add_argument('--input', '-i', required=True, help='Input JSON file path.')
-    parser.add_argument('--output', '-o', help='Output markdown file path (if not set, print to stdout).')
-    parser.add_argument('--description', '-d', action='store_true', help='Include foldable descriptions.')
-    parser.add_argument('--config', default="index_config.yml", help='Path to config file.')
-    
-    args = parser.parse_args()
-    
+def generate_markdown_from_json(input_json, output_markdown, config_yml="index_config.yml", include_desc=False):
     # 读取JSON数据
-    with open(args.input, 'r', encoding='utf-8') as f:
+    with open(input_json, 'r', encoding='utf-8') as f:
         data = json.load(f)
     
     metadata = data["metadata"]
     items = data["items"]
     
     # 读取配置
-    cfg = load_config(config_path=args.config)
+    cfg = load_config(config_path=config_yml)
     seo = cfg.get("seo", {})
     
+    # Get all unique years from all metadata entries
+    all_years = set()
+    for meta in metadata:
+        all_years.update(meta["years"])
+    years_sorted = sorted(all_years)
+    
     # 确定年份范围
-    years_sorted = sorted(metadata["years"])
     year_range = f"{years_sorted[0]}-{years_sorted[-1]}" if len(years_sorted) > 1 else str(years_sorted[0])
     
     # 生成front matter
@@ -144,18 +141,28 @@ def main():
     
     # 处理数据并生成Markdown
     grouped = group_data_by_region_and_month(items)
-    content_md = render_markdown_from_grouped_data(grouped, include_desc=args.description)
+    content_md = render_markdown_from_grouped_data(grouped, include_desc=include_desc)
     body_lines.append(content_md)
     
     # 合成最终的Markdown
     final_md = "\n".join(front_matter_lines) + "\n".join(body_lines)
     
     # 输出
-    if args.output:
-        Path(args.output).write_text(final_md, encoding='utf-8')
-        print(f"[INFO] Generated markdown saved to: {args.output}")
+    if output_markdown:
+        Path(output_markdown).write_text(final_md, encoding='utf-8')
+        print(f"[INFO] Generated markdown saved to: {output_markdown}")
     else:
         print(final_md)
+
+def main():
+    parser = argparse.ArgumentParser(description='Generate markdown from JSON data and YAML config.')
+    parser.add_argument('--input', '-i', required=True, help='Input JSON file path.')
+    parser.add_argument('--output', '-o', help='Output markdown file path (if not set, print to stdout).')
+    parser.add_argument('--description', '-d', action='store_true', help='Include foldable descriptions.')
+    parser.add_argument('--config', default="index_config.yml", help='Path to config file.')
+    
+    args = parser.parse_args()
+    generate_markdown_from_json(args.input, args.output, args.config, args.description)
 
 if __name__ == "__main__":
     main() 

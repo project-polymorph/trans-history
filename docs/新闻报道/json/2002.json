@@ -1,14 +1,28 @@
 {
-  "metadata": {
-    "query_term": "",
-    "years": [
-      2002
-    ],
-    "domains": [
-      "news.transchinese.org"
-    ],
-    "fetch_time": "2025-01-19T19:22:38.970074"
-  },
+  "metadata": [
+    {
+      "query_term": "",
+      "years": [
+        "2002"
+      ],
+      "domains": [
+        "news.transchinese.org"
+      ],
+      "fetch_time": "2025-01-20T02:34:55.284606",
+      "description": "2002 news from news.transchinese.org"
+    },
+    {
+      "query_term": "杂志及新闻报道",
+      "years": [
+        "2002"
+      ],
+      "domains": [
+        "digital.transchinese.org"
+      ],
+      "fetch_time": "2025-01-20T02:34:55.523499",
+      "description": "2002 magazine articles from digital.transchinese.org"
+    }
+  ],
   "items": [
     {
       "url": "https://news.transchinese.org/未分类/news_中国500男子报名愿怀孕产子",

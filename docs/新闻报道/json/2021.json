@@ -1,14 +1,28 @@
 {
-  "metadata": {
-    "query_term": "",
-    "years": [
-      2021
-    ],
-    "domains": [
-      "news.transchinese.org"
-    ],
-    "fetch_time": "2025-01-19T19:22:55.451579"
-  },
+  "metadata": [
+    {
+      "query_term": "",
+      "years": [
+        "2021"
+      ],
+      "domains": [
+        "news.transchinese.org"
+      ],
+      "fetch_time": "2025-01-20T02:35:05.107789",
+      "description": "2021 news from news.transchinese.org"
+    },
+    {
+      "query_term": "杂志及新闻报道",
+      "years": [
+        "2021"
+      ],
+      "domains": [
+        "digital.transchinese.org"
+      ],
+      "fetch_time": "2025-01-20T02:35:05.310496",
+      "description": "2021 magazine articles from digital.transchinese.org"
+    }
+  ],
   "items": [
     {
       "url": "https://news.transchinese.org/未分类/app_罗琳未被魔法世界“取消”，跨性别论战仍在持续_-_北京青年报",
@@ -5311,6 +5325,27 @@
       "format": "Markdown",
       "size": 15650,
       "link": "https://zx.sina.cn/sh/2021-10-19/zx-iktzqtyu2334053.d.html"
+    },
+    {
+      "url": "https://digital.transchinese.org/杂志及新闻报道/港澳台/性文化通訊_第三十八期_2021年_page",
+      "description": "本文件为《性文化通讯》第三十八期，涵盖了一系列与性别与性文化相关的话题，内容包括关于跨性别运动的最新动态、法律与道德的关系、女性在情感和约会中对AA制的看法，以及最近的性文化新闻和事件。文件首先探讨了在疫情期间青少年面临的在线性犯罪风险，并提供了一系列建议和亲子沟通的重要性；接着，特约撰稿员招雋宁分享了自身作为腐女的经历，还原了腐文化的核心价值和对男性同性恋题材的美好幻想。Mazy则提出不接受AA制的个人见解，通过脑神经科学分析，阐述了男女在感情建立中的不同需求和期待。而关于跨性别运动的专栏则回顾了英国高等法院关于跨性别儿童及青少年治疗的裁决，以及相关的法律政策对女性及儿童的影响。文件的最后部分则总结了一些当前的性文化新闻，强调了性教育和公众对性别认同的讨论。",
+      "tags": [
+        "跨性别",
+        "性别认同",
+        "性文化",
+        "法律与道德",
+        "腐文化",
+        "AA制",
+        "性教育",
+        "青少年问题"
+      ],
+      "type": "document",
+      "author": "香港性文化学会",
+      "date": "2021-05-01",
+      "region": "香港",
+      "format": "PDF Document",
+      "size": 1345874,
+      "link": "https://blog.scs.org.hk/wp-content/uploads/2024/06/120210525090850.pdf"
     }
   ]
 }

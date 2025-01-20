@@ -1,14 +1,28 @@
 {
-  "metadata": {
-    "query_term": "",
-    "years": [
-      2011
-    ],
-    "domains": [
-      "news.transchinese.org"
-    ],
-    "fetch_time": "2025-01-19T19:22:48.380452"
-  },
+  "metadata": [
+    {
+      "query_term": "",
+      "years": [
+        "2011"
+      ],
+      "domains": [
+        "news.transchinese.org"
+      ],
+      "fetch_time": "2025-01-20T02:34:59.725026",
+      "description": "2011 news from news.transchinese.org"
+    },
+    {
+      "query_term": "杂志及新闻报道",
+      "years": [
+        "2011"
+      ],
+      "domains": [
+        "digital.transchinese.org"
+      ],
+      "fetch_time": "2025-01-20T02:34:59.958353",
+      "description": "2011 magazine articles from digital.transchinese.org"
+    }
+  ],
   "items": [
     {
       "url": "https://news.transchinese.org/未分类/inews_人妖当空姐--新闻中心",
@@ -1051,6 +1065,44 @@
       "format": "Markdown",
       "size": 1713,
       "link": "https://sports.sina.cn/sa/2011-01-09/detail-ikftpnny8024462.d.html"
+    },
+    {
+      "url": "https://digital.transchinese.org/杂志及新闻报道/中国大陆/中國版河莉秀欲造子宮生子_page",
+      "description": "本文档是关于中国变性人黄宁倩的报导，内容涉及她的变性经历、婚姻计划及生育希望。黄宁倩原名黄恩岭，自幼就喜欢扮成女孩，2004年在江苏省完成变性手术，后改名为黄宁倩。在文中，她透露自己即将与相恋一年的成功商人结婚，并希望能怀孕生子。黄宁倩成为内地第一位通过网络征婚的变性人，展示了跨性别群体在现代社会中的生活状态。正式的描述表明，她与未婚夫的关系尚未公开她变性身份，反映出对公众接受度的担忧。同时，文中还提到了医学上如何为变性人提供生育可能性的相关信息。",
+      "tags": [
+        "跨性别",
+        "变性人",
+        "婚姻",
+        "生育",
+        "社会接受度",
+        "医疗资源"
+      ],
+      "type": "document",
+      "author": "香港文汇报",
+      "date": "2011-01-04",
+      "region": "中国大陆",
+      "format": "PDF Document",
+      "size": 2156104,
+      "link": "http://pdf.wenweipo.com/2011/01/04/a19-0104.pdf"
+    },
+    {
+      "url": "https://digital.transchinese.org/杂志及新闻报道/中国大陆/异装癖，或缘于压力过大_卫生报_page",
+      "description": "这篇文章讲述了陈尔健的个人经历，他是一位32岁的男性，在婚姻生活中面临着内心和情感的矛盾。文章详细描述了他对男扮女装的爱好，归因于异装癖这一心理状态，并探讨了这种性变态在家庭生活中可能造成的冲突。例如，文章提到陈先生常穿女性服装来获得心理上的安慰，但这导致了他与妻子之间的频繁争吵和情感隔阂。文章分析了异装癖的成因，包括家庭环境对性别认同的影响以及社会文化的压力。它还涉及了对异装癖治疗的心理咨询方法，强调了情感抚慰在治疗过程中的重要性。整篇文章不仅展现了个人情感的复杂性，也反映了社会对跨性别群体的误解与偏见。",
+      "tags": [
+        "异装癖",
+        "心理健康",
+        "跨性别",
+        "家庭关系",
+        "性别认同",
+        "社会环境"
+      ],
+      "type": "document",
+      "author": "尹慧",
+      "date": "2011-08-23",
+      "region": "中国大陆",
+      "format": "PDF Document",
+      "size": 445651,
+      "link": "https://epaper.voc.com.cn/dzwsb/images/2011-08/23/08/08.pdf"
     }
   ]
 }

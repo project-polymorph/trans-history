@@ -1,14 +1,28 @@
 {
-  "metadata": {
-    "query_term": "",
-    "years": [
-      2012
-    ],
-    "domains": [
-      "news.transchinese.org"
-    ],
-    "fetch_time": "2025-01-19T19:22:48.914543"
-  },
+  "metadata": [
+    {
+      "query_term": "",
+      "years": [
+        "2012"
+      ],
+      "domains": [
+        "news.transchinese.org"
+      ],
+      "fetch_time": "2025-01-20T02:35:00.319506",
+      "description": "2012 news from news.transchinese.org"
+    },
+    {
+      "query_term": "杂志及新闻报道",
+      "years": [
+        "2012"
+      ],
+      "domains": [
+        "digital.transchinese.org"
+      ],
+      "fetch_time": "2025-01-20T02:35:00.516031",
+      "description": "2012 magazine articles from digital.transchinese.org"
+    }
+  ],
   "items": [
     {
       "url": "https://news.transchinese.org/未分类/epaper_是什麽让日本“伪娘”泛濫成灾？_-_先驱电子报",
@@ -1930,6 +1944,28 @@
       "format": "Markdown",
       "size": 2732,
       "link": "http://news.sina.com.cn/o/2012-11-28/090425680104.shtml"
+    },
+    {
+      "url": "https://digital.transchinese.org/杂志及新闻报道/中国大陆/2012年小学性教育新思路_李青_page",
+      "description": "本文是关于湖南省株洲市荷塘区率先将性教育引入小学课堂的报道，讨论了家长对于性教育的态度以及儿童对性知识的困惑。文章开篇提出了一位小学生询问“我从哪里来的？”的问题，引发了家长期待已久的性教育需求。通过采访家长和专家，文章指出性教育在儿童成长中的重要性，并强调了针对不同年龄段开展适当的性别教育的必要。有家长曾因为孩子的好奇心不得不选择让专家来教授相关知识，该地区的小学教学内容还涉及青春期教育、性别认同等方面，旨在帮助学生更好地理解自己的身份和健康发展。文中还提到了一些社会现象与问题，诸如同性恋、性别认知不足对儿童心理的影响，以及国内外性教育的不同情况。",
+      "tags": [
+        "性教育",
+        "儿童心理",
+        "性别认同",
+        "跨性别",
+        "性别教育",
+        "多元性别",
+        "社会现象",
+        "湖南省",
+        "株洲市"
+      ],
+      "type": "document",
+      "author": "李青",
+      "date": "2012-11-15",
+      "region": "中国大陆",
+      "format": "PDF Document",
+      "size": 444075,
+      "link": "https://epaper.voc.com.cn/sxdsb/images/2012-11/15/A8/20121115A8_pdf.pdf"
     }
   ]
 }

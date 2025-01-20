@@ -4,31 +4,58 @@ FETCH_SCRIPT := ../scripts/fetch_data.py
 MARKDOWN_SCRIPT := ../scripts/json_to_markdown.py
 README_SCRIPT := ../scripts/generate_readme.py
 JSON_DIR := 新闻报道/json
+NEWS_DOMAIN := news.transchinese.org
+DIGITAL_DOMAIN := digital.transchinese.org
+DIGITAL_TERM := 杂志及新闻报道
 
 all: fetch generate readme
 
 # Fetch data targets
-fetch: fetch_historical fetch_recent
+fetch: fetch_news fetch_digital
 
-fetch_historical: $(JSON_DIR)/historical.json
+# Fetch news data
+fetch_news: fetch_historical_news fetch_recent_news
+
+fetch_historical_news: $(JSON_DIR)/historical.json
 
 $(JSON_DIR)/historical.json:
 	@mkdir -p 新闻报道 $(JSON_DIR)
 	python $(FETCH_SCRIPT) \
 		--years $(HISTORICAL) \
-		--domains news.transchinese.org \
+		--domains $(NEWS_DOMAIN) \
 		--output $@ \
 		--append
 
-fetch_recent: $(RECENT:%=$(JSON_DIR)/%.json)
+fetch_recent_news: $(RECENT:%=$(JSON_DIR)/%.json)
 
 $(JSON_DIR)/%.json:
 	@mkdir -p 新闻报道 $(JSON_DIR)
 	python $(FETCH_SCRIPT) \
 		--years $* \
-		--domains news.transchinese.org \
+		--domains $(NEWS_DOMAIN) \
 		--output $@ \
 		--append
+
+# Fetch digital data and append to existing JSON files
+fetch_digital: fetch_historical_digital fetch_recent_digital
+
+fetch_historical_digital: $(JSON_DIR)/historical.json
+	python $(FETCH_SCRIPT) \
+		--years $(HISTORICAL) \
+		--domains $(DIGITAL_DOMAIN) \
+		--term "$(DIGITAL_TERM)" \
+		--output $@ \
+		--append
+
+fetch_recent_digital: $(RECENT:%=$(JSON_DIR)/%.json)
+	@for year in $(RECENT); do \
+		python $(FETCH_SCRIPT) \
+			--years $$year \
+			--domains $(DIGITAL_DOMAIN) \
+			--term "$(DIGITAL_TERM)" \
+			--output $(JSON_DIR)/$$year.json \
+			--append; \
+	done
 
 # Generate markdown targets
 generate: generate_historical generate_recent
@@ -57,7 +84,12 @@ readme: readme_with_desc readme_without_desc
 新闻报道/README.md:
 	python $(README_SCRIPT) 新闻报道
 
-.PHONY: all fetch generate readme fetch_historical fetch_recent generate_historical generate_recent readme_with_desc readme_without_desc
+.PHONY: all fetch generate readme \
+	fetch_news fetch_digital \
+	fetch_historical_news fetch_recent_news \
+	fetch_historical_digital fetch_recent_digital \
+	generate_historical generate_recent \
+	readme_with_desc readme_without_desc
 
 clean:
 	rm -rf 新闻报道/*.md $(JSON_DIR)

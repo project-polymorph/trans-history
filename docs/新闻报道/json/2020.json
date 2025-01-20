@@ -1,14 +1,28 @@
 {
-  "metadata": {
-    "query_term": "",
-    "years": [
-      2020
-    ],
-    "domains": [
-      "news.transchinese.org"
-    ],
-    "fetch_time": "2025-01-19T19:22:54.736100"
-  },
+  "metadata": [
+    {
+      "query_term": "",
+      "years": [
+        "2020"
+      ],
+      "domains": [
+        "news.transchinese.org"
+      ],
+      "fetch_time": "2025-01-20T02:35:04.509076",
+      "description": "2020 news from news.transchinese.org"
+    },
+    {
+      "query_term": "杂志及新闻报道",
+      "years": [
+        "2020"
+      ],
+      "domains": [
+        "digital.transchinese.org"
+      ],
+      "fetch_time": "2025-01-20T02:35:04.678792",
+      "description": "2020 magazine articles from digital.transchinese.org"
+    }
+  ],
   "items": [
     {
       "url": "https://news.transchinese.org/未分类/c_药娘日记：未成年人吃药变女孩，没钱买药被逼做福利姬_-_网易新闻",
@@ -3161,6 +3175,46 @@
       "format": "Markdown",
       "size": 15370,
       "link": "https://tech.sina.cn/d/bk/2020-08-08/detail-iivhvpwx9803635.d.html"
+    },
+    {
+      "url": "https://digital.transchinese.org/杂志及新闻报道/海外/517酷儿论坛打破沉默继续前行_2020_page",
+      "description": "该文件是517酷儿论坛的特别企划，标题为《打破沉默，继续前行》。文件内容主要探讨了多元性别与健康平等的议题，呼吁社会公众对酷儿群体的关注与理解。文中提及了‘多元×健康×平等’的公式，强调在性别多样性和性别认同方面，需要提供更多的支持和资源，以促进这一群体的健康与权利。内容具有很强的社会倡导性质，旨在提升人们对酷儿问题的认识与敏感度。",
+      "tags": [
+        "酷儿论坛",
+        "多元性别",
+        "健康平等",
+        "社会倡导",
+        "跨性别",
+        "多元性别研究"
+      ],
+      "type": "document",
+      "author": "517酷儿论坛",
+      "date": "2020-05-17",
+      "region": "未知",
+      "format": "PDF Document",
+      "size": 1787714,
+      "link": "https://motss.cc/archives/wechat/pdf/%E9%85%B7%E5%84%BF%E8%AE%BA%E5%9D%9B_2020-05-17_%E6%89%93%E7%A0%B4%E6%B2%89%E9%BB%98%EF%BC%8C%E7%BB%A7%E7%BB%AD%E5%89%8D%E8%A1%8C517%E9%85%B7%E5%84%BF%E8%AE%BA%E5%9D%9B%E7%89%B9%E5%88%AB%E4%BC%81%E5%88%92.pdf"
+    },
+    {
+      "url": "https://digital.transchinese.org/杂志及新闻报道/海外/PDF_看见性别_观察家_page",
+      "description": "这份PDF文件名为《看见性别》，由新纪元大学学院出版，收录了与性别教育和LGBTQIA相关的多篇文章和访谈，探讨了性别的多样性和社会对性别与性取向的刻板印象。文件中引述了多位性别教育工作者如杨洁和蔡佩娟的观点，她们强调性别与性别教育的重要性，指出性别教育应涉及更广泛的社会问题，包括性别歧视、性别刻板印象等。文件还从多个案例中透露了马来西亚对性少数群体的态度，及其面临的法律和社会挑战，如跨性别者的权利问题和LGBT群体的生存现状。",
+      "tags": [
+        "性别教育",
+        "LGBTQIA",
+        "跨性别者",
+        "性别刻板印象",
+        "社会歧视",
+        "法律政策",
+        "生活故事",
+        "医疗资源"
+      ],
+      "type": "document",
+      "author": "新纪元教育有限公司",
+      "date": "2020-05-23",
+      "region": "马来西亚",
+      "format": "PDF Document",
+      "size": 5395633,
+      "link": "https://www.newera.edu.my/TheKajangObserver/images/2019_Sep_B.pdf"
     }
   ]
 }

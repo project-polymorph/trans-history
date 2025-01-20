@@ -28,8 +28,9 @@
       "domains": [
         "digital.transchinese.org"
       ],
-      "fetch_time": "2025-01-20T05:18:43.406275",
-      "description": "Historical magazine articles from digital.transchinese.org"
+      "fetch_time": "2025-01-20T07:19:46.547495",
+      "description": "Historical magazine articles from digital.transchinese.org",
+      "exclude_url_reg": null
     },
     {
       "query_term": "社群及NGO文件/统计报告",
@@ -53,8 +54,9 @@
       "domains": [
         "digital.transchinese.org"
       ],
-      "fetch_time": "2025-01-20T05:18:46.661461",
-      "description": "2011-2025 digital from digital.transchinese.org"
+      "fetch_time": "2025-01-20T07:19:49.372266",
+      "description": "2011-2025 digital from digital.transchinese.org",
+      "exclude_url_reg": null
     }
   ],
   "items": [

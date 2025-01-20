@@ -17,8 +17,9 @@
       "domains": [
         "digital.transchinese.org"
       ],
-      "fetch_time": "2025-01-20T05:18:49.031902",
-      "description": "2011-2020 digital from digital.transchinese.org"
+      "fetch_time": "2025-01-20T07:19:51.448779",
+      "description": "2011-2020 digital from digital.transchinese.org",
+      "exclude_url_reg": null
     },
     {
       "query_term": "学术文献",
@@ -37,8 +38,9 @@
       "domains": [
         "digital.transchinese.org"
       ],
-      "fetch_time": "2025-01-20T05:18:51.518915",
-      "description": "2011-2020 magazine articles from digital.transchinese.org"
+      "fetch_time": "2025-01-20T07:19:53.624781",
+      "description": "2011-2020 magazine articles from digital.transchinese.org",
+      "exclude_url_reg": null
     }
   ],
   "items": [

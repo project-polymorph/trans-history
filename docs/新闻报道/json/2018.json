@@ -8,8 +8,9 @@
       "domains": [
         "news.transchinese.org"
       ],
-      "fetch_time": "2025-01-20T02:35:03.497696",
-      "description": "2018 news from news.transchinese.org"
+      "fetch_time": "2025-01-20T07:19:38.054147",
+      "description": "2018 news from news.transchinese.org",
+      "exclude_url_reg": null
     },
     {
       "query_term": "杂志及新闻报道",
@@ -19,8 +20,9 @@
       "domains": [
         "digital.transchinese.org"
       ],
-      "fetch_time": "2025-01-20T02:35:03.679942",
-      "description": "2018 magazine articles from digital.transchinese.org"
+      "fetch_time": "2025-01-20T07:19:38.256005",
+      "description": "2018 magazine articles from digital.transchinese.org",
+      "exclude_url_reg": null
     }
   ],
   "items": [

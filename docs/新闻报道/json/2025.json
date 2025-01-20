@@ -8,8 +8,9 @@
       "domains": [
         "news.transchinese.org"
       ],
-      "fetch_time": "2025-01-20T03:36:15.543374",
-      "description": "2025 news from news.transchinese.org"
+      "fetch_time": "2025-01-20T07:19:42.187379",
+      "description": "2025 news from news.transchinese.org",
+      "exclude_url_reg": null
     },
     {
       "query_term": "",
@@ -19,8 +20,9 @@
       "domains": [
         "digital.transchinese.org"
       ],
-      "fetch_time": "2025-01-20T03:36:15.732069",
-      "description": "2025 magazine articles from digital.transchinese.org"
+      "fetch_time": "2025-01-20T07:19:42.375970",
+      "description": "2025 magazine articles from digital.transchinese.org",
+      "exclude_url_reg": null
     }
   ],
   "items": []

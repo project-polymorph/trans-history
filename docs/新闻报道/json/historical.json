@@ -27,8 +27,9 @@
       "domains": [
         "news.transchinese.org"
       ],
-      "fetch_time": "2025-01-20T02:43:27.942024",
-      "description": "Historical news from news.transchinese.org"
+      "fetch_time": "2025-01-20T07:19:24.611732",
+      "description": "Historical news from news.transchinese.org",
+      "exclude_url_reg": null
     },
     {
       "query_term": "杂志及新闻报道",
@@ -57,8 +58,9 @@
       "domains": [
         "digital.transchinese.org"
       ],
-      "fetch_time": "2025-01-20T02:43:31.745567",
-      "description": "Historical magazine articles from digital.transchinese.org"
+      "fetch_time": "2025-01-20T07:19:28.228701",
+      "description": "Historical magazine articles from digital.transchinese.org",
+      "exclude_url_reg": null
     }
   ],
   "items": [

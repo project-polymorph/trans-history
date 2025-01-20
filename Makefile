@@ -4,6 +4,7 @@ build:
 	make docs/新闻报道
 	make docs/学术研究与调查报告
 	make docs/政策法规
+	make docs/综合索引
 
 docs/新闻报道:
 	mkdir -p docs/新闻报道
@@ -17,6 +18,10 @@ docs/政策法规:
 	mkdir -p docs/政策法规
 	cd docs && python ../scripts/generate_index.py --config policy_query.json --state .policy_index_state.json
 
+docs/综合索引:
+	mkdir -p docs/综合索引
+	cd docs && python ../scripts/generate_index.py --config total_query.json --state .total_index_state.json
+
 clean:
 	rm -rf docs/新闻报道
 	rm -rf docs/学术研究与调查报告
@@ -24,3 +29,4 @@ clean:
 	rm -f docs/.news_index_state.json
 	rm -f docs/.paper_index_state.json
 	rm -f docs/.policy_index_state.json
+	rm -f docs/.total_index_state.json

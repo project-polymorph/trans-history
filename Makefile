@@ -3,7 +3,7 @@
 build:
 	make docs/新闻报道
 	make docs/学术研究与调查报告
-	make docs/政策法规
+	cp -R templates/政策法规 docs/政策法规
 	make docs/综合索引
 
 docs/新闻报道:

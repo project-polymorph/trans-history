@@ -26,6 +26,8 @@ def group_data_by_region_and_month(data_list):
         url = item.get("url", "")
         link = item.get("link", "")
         desc = item.get("description", "")
+        author = item.get("author", "")
+        tags = item.get("tags", [])
 
         try:
             date_obj = datetime.strptime(date_str, "%Y-%m-%d")
@@ -37,7 +39,9 @@ def group_data_by_region_and_month(data_list):
             "date": date_str,
             "url": url,
             "link": link,
-            "desc": desc
+            "desc": desc,
+            "author": author,
+            "tags": tags
         })
     return grouped
 
@@ -82,15 +86,6 @@ def render_markdown_from_grouped_data(grouped_data, include_desc=False):
                     line = f"[{title}]({entry['url']})"
 
                 # Add author and tags if available
-                meta_parts = []
-                if entry.get("author") and entry["author"] != "未知":
-                    meta_parts.append(f"作者：{entry['author']}")
-                if entry.get("tags"):
-                    meta_parts.append(f"标签：{', '.join(entry['tags'])}")
-                
-                if meta_parts:
-                    line += f" ({' | '.join(meta_parts)})"
-
                 lines.append(line)
 
                 if include_desc and entry["desc"]:
@@ -106,9 +101,13 @@ def render_markdown_from_grouped_data(grouped_data, include_desc=False):
                     meta_parts = []
                     if entry.get("date"):
                         meta_parts.append(f"发布日期：{entry['date']}")
+                    if entry.get("author") and entry["author"] != "未知":
+                        meta_parts.append(f"作者：{entry['author']}")
+                    if entry.get("tags"):
+                        meta_parts.append(f"标签：{', '.join(entry['tags'])}")
                     if entry.get("url"):
                         meta_parts.append(f"[存档链接]({entry['url']})")
-                    
+
                     if meta_parts:
                         lines.append(f"> \n> {' | '.join(meta_parts)}")
                     lines.append("")

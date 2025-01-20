@@ -132,11 +132,14 @@ def generate_markdown_from_json(input_json, output_markdown, template_path="temp
     # 确定年份范围
     year_range = f"{years_sorted[0]}-{years_sorted[-1]}" if len(years_sorted) > 1 else str(years_sorted[0])
     
+    # Count total items
+    total_items = len(items)
+    
     # 生成年份范围描述
     if len(years_sorted) > 1:
-        year_range_description = f"> 本索引收录了{years_sorted[0]}年至{years_sorted[-1]}年的相关信息。"
+        year_range_description = f"> 本索引收录了{years_sorted[0]}年至{years_sorted[-1]}年的相关信息，共计 {total_items} 篇文章。"
     else:
-        year_range_description = f"> 本索引收录了{years_sorted[0]}年的相关信息。"
+        year_range_description = f"> 本索引收录了{years_sorted[0]}年的相关信息，共计 {total_items} 篇文章。"
     
     # 处理数据并生成Markdown
     grouped = group_data_by_region_and_month(items)

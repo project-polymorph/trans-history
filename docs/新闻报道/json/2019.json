@@ -8,7 +8,7 @@
       "domains": [
         "news.transchinese.org"
       ],
-      "fetch_time": "2025-01-20T08:17:58.821742",
+      "fetch_time": "2025-01-20T12:33:18.621362",
       "description": "2019 news from news.transchinese.org",
       "exclude_url_reg": null
     },
@@ -20,7 +20,7 @@
       "domains": [
         "digital.transchinese.org"
       ],
-      "fetch_time": "2025-01-20T08:17:58.875876",
+      "fetch_time": "2025-01-20T12:33:18.777379",
       "description": "2019 magazine articles from digital.transchinese.org",
       "exclude_url_reg": null
     }
@@ -559,46 +559,6 @@
       "format": "Markdown",
       "size": 11789,
       "link": "https://www.bbc.com/zhongwen/simp/chinese-news-48392311"
-    },
-    {
-      "url": "https://news.transchinese.org/未分类/www_年鉴展单元作品推送_艺术乡建_女性艺术",
-      "description": "本文件主题为女性艺术与艺术乡建，主要探讨艺术如何介入社会和乡村生活，以及女性艺术的特征与建构。文件中提到，艺术乡建项目旨在通过艺术改变乡村的生活结构，强调艺术不应仅限于美术馆，而应积极融入并参与普通人的生活。这一点反映在多个艺术项目中，比如左靖的《碧山工销社》和武小川的《关中忙罢艺术节》。此外，文件也讨论了作为一个特定文化现象的女性艺术，包括性别认同、身体的运用、以及女性气质在艺术创作中的影响等论题。文中还提供了多位艺术家的具体作品信息和相关讨论，以及艺术在女性历史与文化中的重要角色。",
-      "tags": [
-        "艺术",
-        "乡建",
-        "女性艺术",
-        "性别认同",
-        "社会参与",
-        "中国当代艺术",
-        "年鉴展"
-      ],
-      "type": "webpage",
-      "author": "未知",
-      "date": "2019-07-10",
-      "region": "中国大陆",
-      "format": "Markdown",
-      "size": 5957,
-      "link": "https://www.trueart.com/news/346535.html"
-    },
-    {
-      "url": "https://news.transchinese.org/未分类/www_性转三国武将游戏《桃源少女》台服推出！_-_biubiu加速器",
-      "description": "本文介绍了一款名为《桃源少女》的性转三国武将游戏，该游戏由飞鱼数位游戏公司发布，并计划于2019年6月上线。游戏的背景设定在桃源大陆，主角将与多位转化为女性的三国名将和妖族进行战斗。玩家可以选择不同风格的角色并逐步收集卡牌，这些卡牌以三国历史人物为基础，将他们以美少女形象展现，但依旧保留了强大的战斗能力。游戏不仅提供丰富的角色选择，还允许玩家布置自己的家居环境，增添了游戏的趣味性和个性化。并且，游戏还包括多种战斗机制和策略玩法，使得玩家能够通过组队和连携技提高战斗效率。",
-      "tags": [
-        "游戏",
-        "性转",
-        "三国",
-        "文化",
-        "女性角色",
-        "卡牌游戏",
-        "设计"
-      ],
-      "type": "webpage",
-      "author": "biubiu加速器",
-      "date": "2019-05-30",
-      "region": "台湾",
-      "format": "Markdown",
-      "size": 8668,
-      "link": "https://www.biubiu001.com/news/745.html"
     },
     {
       "url": "https://news.transchinese.org/未分类/www_性转少女RPG《魔女兵器》开启安卓限时测试_-_biubiu加速器",

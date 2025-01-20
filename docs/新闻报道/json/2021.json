@@ -8,7 +8,7 @@
       "domains": [
         "news.transchinese.org"
       ],
-      "fetch_time": "2025-01-20T08:17:59.074374",
+      "fetch_time": "2025-01-20T12:33:19.527932",
       "description": "2021 news from news.transchinese.org",
       "exclude_url_reg": null
     },
@@ -20,7 +20,7 @@
       "domains": [
         "digital.transchinese.org"
       ],
-      "fetch_time": "2025-01-20T08:17:59.132992",
+      "fetch_time": "2025-01-20T12:33:19.668466",
       "description": "2021 magazine articles from digital.transchinese.org",
       "exclude_url_reg": null
     }
@@ -1505,28 +1505,6 @@
       "link": "https://www.cmuh.cmu.edu.tw/NewsInfo/NewsArticle?no=7611"
     },
     {
-      "url": "https://news.transchinese.org/未分类/www_性別重置手術（變性手術）-陰莖成形術_-_中國醫藥大學新竹附設醫院",
-      "description": "本文详细介绍了跨性别者在中国进行性别重置手术（变性手术）中的阴茎成形术，包括手术前后的准备、流程和可能的并发症。手术分为三个阶段：第一阶段是由妇产科进行子宫及卵巢摘除，第二阶段是由整形外科及泌尿科进行尿道延伸及阴茎成形手术，第三阶段是在新形成的阴茎上植入假体。在手术复杂性上，强调了术前的心理评估和患者的身体条件对手术的影响，以及手术后护理的重要性。文中还提到不同类型的假体及其优缺点，以及阴茎成形术的可能并发症，如尿道狭窄等，患者的选择将影响最终的手术结果。",
-      "tags": [
-        "跨性别",
-        "性别重置手术",
-        "阴茎成形术",
-        "医疗资源",
-        "法律政策",
-        "社会环境",
-        "跨性别医疗",
-        "手术过程",
-        "并发症"
-      ],
-      "type": "webpage",
-      "author": "施秉庚医生",
-      "date": "2021-12-07",
-      "region": "台湾",
-      "format": "Markdown",
-      "size": 6284,
-      "link": "https://www.cmu-hch.cmu.edu.tw/NewsInfo/NewsArticle?no=2174"
-    },
-    {
       "url": "https://news.transchinese.org/未分类/www_性別重置手術（變性手術）-陰莖成形術_-_中國醫藥大學附設醫院",
       "description": "该文件详细介绍了性别重置手术（变性手术）中的阴茎成形术的过程、注意事项及可能的并发症。文章中由中国医药大学附属医院的施秉庚医生和邱鸿杰医生撰写，讨论了手术的多阶段流程，强调手术的不可逆性以及术前需要经过心理评估的要求。提到女变男的手术分为三个阶段，分别是子宫及卵巢摘除、阴茎重建和假体植入。文中详细介绍了每个阶段的操作步骤及术后恢复要点。此外，还探讨了阴茎成形术后可能发生的一些并发症及相应的对策，如尿道狭窄、假体穿出等问题，并提供了参考文献和相关数据。",
       "tags": [
@@ -1545,27 +1523,6 @@
       "format": "Markdown",
       "size": 6534,
       "link": "https://www.cmuh.cmu.edu.tw/NewsInfo/NewsArticle?no=7676"
-    },
-    {
-      "url": "https://news.transchinese.org/未分类/www_性別重置手術（變性手術）-陰道成形術_-_中國醫藥大學新竹附設醫院",
-      "description": "该文件详细介绍了阴道成形术（性别重置手术的一种），主要针对男变女的跨性别者。内容涵盖了手术的适应症、禁忌症、结构改变及术后护理等多个方面。首先，手术前需要经过两位精神科医师的鉴定，以确保患者具备接受手术的心理状态。手术过程涉及对男性身体结构的重建，包括阴茎、尿道及阴囊等的改造。文中详细列举了不同阴茎长度的患者适合的阴道成形术式。此外，提供了术后的护理建议，包括扩张的时间表、短期和长期并发症的可能性，以及大肠阴道成形术的护理挑战等。该资料还附有相关的医学参考文献以供进一步了解。",
-      "tags": [
-        "跨性别",
-        "阴道成形术",
-        "男变女手术",
-        "医疗资源",
-        "手术适应症",
-        "术后护理",
-        "并发症",
-        "精神健康评估"
-      ],
-      "type": "webpage",
-      "author": "中國醫藥大學新竹附設醫院",
-      "date": "2021-12-07",
-      "region": "臺灣",
-      "format": "Markdown",
-      "size": 4515,
-      "link": "https://www.cmu-hch.cmu.edu.tw/NewsInfo/NewsArticle?no=2173"
     },
     {
       "url": "https://news.transchinese.org/未分类/www_性別重置手術（變性手術）-陰道成形術_-_中國醫藥大學附設醫院",

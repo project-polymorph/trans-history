@@ -25,6 +25,28 @@ class NewsIndexGenerator:
         self.config = self._load_config()
         self.state = self._load_state()
     
+    def _generate_markdown_only(self, target: Dict):
+        """Generate markdown from existing JSON file without fetching new data"""
+        output_json = target["output_json"]
+        output_markdown = target["output_markdown"]
+        
+        if not Path(output_json).exists():
+            logger.warning(f"JSON file not found: {output_json}, skipping markdown generation")
+            return False
+        
+        try:
+            logger.info(f"Generating markdown from existing JSON: {output_json}")
+            generate_markdown_from_json(
+                input_json=output_json,
+                output_markdown=output_markdown,
+                template_path=target.get("template_path", "templates/新闻报道/新闻索引.template.md"),
+                include_desc=target.get("include_description", True)
+            )
+            return True
+        except Exception as e:
+            logger.error(f"Failed to generate markdown for {output_json}: {e}")
+            return False
+    
     def _load_config(self) -> Dict:
         """Load the configuration file"""
         with open(self.config_path, 'r', encoding='utf-8') as f:
@@ -117,14 +139,20 @@ class NewsIndexGenerator:
             generate_markdown_from_json(
                 input_json=output_json,
                 output_markdown=output_markdown,
-                config_yml=target.get("config_yml", "index_config.yml"),
+                template_path=target.get("template_path", "templates/新闻报道/新闻索引.template.md"),
                 include_desc=target.get("include_description", True)
             )
         
         return updated
     
-    def generate(self, force: bool = False):
+    def generate(self, force: bool = False, markdown_only: bool = False):
         """Generate all indexes based on configuration"""
+        if markdown_only:
+            logger.info("Generating markdown files from existing JSON files...")
+            for target in self.config["targets"]:
+                self._generate_markdown_only(target)
+            return
+        
         if force:
             self.state = {"queries": {}, "last_update": None}
         
@@ -143,11 +171,13 @@ def main():
     parser.add_argument('--config', default='news_query.json', help='Path to configuration file')
     parser.add_argument('--state', default='.news_index_state.json', help='Path to state file')
     parser.add_argument('--force', action='store_true', help='Force update all targets')
+    parser.add_argument('--markdown-only', action='store_true', 
+                       help='Only generate markdown files from existing JSON files without fetching new data')
     
     args = parser.parse_args()
     
     generator = NewsIndexGenerator(args.config, args.state)
-    generator.generate(args.force)
+    generator.generate(args.force, args.markdown_only)
 
 if __name__ == "__main__":
     main() 

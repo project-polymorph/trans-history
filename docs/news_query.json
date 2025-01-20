@@ -3,7 +3,7 @@
     {
       "output_json": "新闻报道/json/historical.json",
       "output_markdown": "新闻报道/1980-1999.md",
-      "config_yml": "新闻报道/index_config.yml",
+      "template_path": "../templates/新闻报道/新闻索引.template.md",
       "include_description": true,
       "queries": [
         {
@@ -24,7 +24,7 @@
     {
       "output_json": "新闻报道/json/2000.json",
       "output_markdown": "新闻报道/2000.md",
-      "config_yml": "新闻报道/index_config.yml",
+      "template_path": "../templates/新闻报道/新闻索引.template.md",
       "include_description": true,
       "queries": [
         {
@@ -45,7 +45,7 @@
     {
       "output_json": "新闻报道/json/2001.json",
       "output_markdown": "新闻报道/2001.md",
-      "config_yml": "新闻报道/index_config.yml",
+      "template_path": "../templates/新闻报道/新闻索引.template.md",
       "include_description": true,
       "queries": [
         {
@@ -66,7 +66,7 @@
     {
       "output_json": "新闻报道/json/2002.json",
       "output_markdown": "新闻报道/2002.md",
-      "config_yml": "新闻报道/index_config.yml",
+      "template_path": "../templates/新闻报道/新闻索引.template.md",
       "include_description": true,
       "queries": [
         {
@@ -87,7 +87,7 @@
     {
       "output_json": "新闻报道/json/2003.json",
       "output_markdown": "新闻报道/2003.md",
-      "config_yml": "新闻报道/index_config.yml",
+      "template_path": "../templates/新闻报道/新闻索引.template.md",
       "include_description": true,
       "queries": [
         {
@@ -108,7 +108,7 @@
     {
       "output_json": "新闻报道/json/2004.json",
       "output_markdown": "新闻报道/2004.md",
-      "config_yml": "新闻报道/index_config.yml",
+      "template_path": "../templates/新闻报道/新闻索引.template.md",
       "include_description": true,
       "queries": [
         {
@@ -129,7 +129,7 @@
     {
       "output_json": "新闻报道/json/2005.json",
       "output_markdown": "新闻报道/2005.md",
-      "config_yml": "新闻报道/index_config.yml",
+      "template_path": "../templates/新闻报道/新闻索引.template.md",
       "include_description": true,
       "queries": [
         {
@@ -150,7 +150,7 @@
     {
       "output_json": "新闻报道/json/2006.json",
       "output_markdown": "新闻报道/2006.md",
-      "config_yml": "新闻报道/index_config.yml",
+      "template_path": "../templates/新闻报道/新闻索引.template.md",
       "include_description": true,
       "queries": [
         {
@@ -171,7 +171,7 @@
     {
       "output_json": "新闻报道/json/2007.json",
       "output_markdown": "新闻报道/2007.md",
-      "config_yml": "新闻报道/index_config.yml",
+      "template_path": "../templates/新闻报道/新闻索引.template.md",
       "include_description": true,
       "queries": [
         {
@@ -192,7 +192,7 @@
     {
       "output_json": "新闻报道/json/2008.json",
       "output_markdown": "新闻报道/2008.md",
-      "config_yml": "新闻报道/index_config.yml",
+      "template_path": "../templates/新闻报道/新闻索引.template.md",
       "include_description": true,
       "queries": [
         {
@@ -213,7 +213,7 @@
     {
       "output_json": "新闻报道/json/2009.json",
       "output_markdown": "新闻报道/2009.md",
-      "config_yml": "新闻报道/index_config.yml",
+      "template_path": "../templates/新闻报道/新闻索引.template.md",
       "include_description": true,
       "queries": [
         {
@@ -234,7 +234,7 @@
     {
       "output_json": "新闻报道/json/2010.json",
       "output_markdown": "新闻报道/2010.md",
-      "config_yml": "新闻报道/index_config.yml",
+      "template_path": "../templates/新闻报道/新闻索引.template.md",
       "include_description": true,
       "queries": [
         {
@@ -255,7 +255,7 @@
     {
       "output_json": "新闻报道/json/2011.json",
       "output_markdown": "新闻报道/2011.md",
-      "config_yml": "新闻报道/index_config.yml",
+      "template_path": "../templates/新闻报道/新闻索引.template.md",
       "include_description": true,
       "queries": [
         {
@@ -276,7 +276,7 @@
     {
       "output_json": "新闻报道/json/2012.json",
       "output_markdown": "新闻报道/2012.md",
-      "config_yml": "新闻报道/index_config.yml",
+      "template_path": "../templates/新闻报道/新闻索引.template.md",
       "include_description": true,
       "queries": [
         {
@@ -297,7 +297,7 @@
     {
       "output_json": "新闻报道/json/2013.json",
       "output_markdown": "新闻报道/2013.md",
-      "config_yml": "新闻报道/index_config.yml",
+      "template_path": "../templates/新闻报道/新闻索引.template.md",
       "include_description": true,
       "queries": [
         {
@@ -318,7 +318,7 @@
     {
       "output_json": "新闻报道/json/2014.json",
       "output_markdown": "新闻报道/2014.md",
-      "config_yml": "新闻报道/index_config.yml",
+      "template_path": "../templates/新闻报道/新闻索引.template.md",
       "include_description": true,
       "queries": [
         {
@@ -339,7 +339,7 @@
     {
       "output_json": "新闻报道/json/2015.json",
       "output_markdown": "新闻报道/2015.md",
-      "config_yml": "新闻报道/index_config.yml",
+      "template_path": "../templates/新闻报道/新闻索引.template.md",
       "include_description": true,
       "queries": [
         {
@@ -360,7 +360,7 @@
     {
       "output_json": "新闻报道/json/2016.json",
       "output_markdown": "新闻报道/2016.md",
-      "config_yml": "新闻报道/index_config.yml",
+      "template_path": "../templates/新闻报道/新闻索引.template.md",
       "include_description": true,
       "queries": [
         {
@@ -381,7 +381,7 @@
     {
       "output_json": "新闻报道/json/2017.json",
       "output_markdown": "新闻报道/2017.md",
-      "config_yml": "新闻报道/index_config.yml",
+      "template_path": "../templates/新闻报道/新闻索引.template.md",
       "include_description": true,
       "queries": [
         {
@@ -402,7 +402,7 @@
     {
       "output_json": "新闻报道/json/2018.json",
       "output_markdown": "新闻报道/2018.md",
-      "config_yml": "新闻报道/index_config.yml",
+      "template_path": "../templates/新闻报道/新闻索引.template.md",
       "include_description": true,
       "queries": [
         {
@@ -423,7 +423,7 @@
     {
       "output_json": "新闻报道/json/2019.json",
       "output_markdown": "新闻报道/2019.md",
-      "config_yml": "新闻报道/index_config.yml",
+      "template_path": "../templates/新闻报道/新闻索引.template.md",
       "include_description": true,
       "queries": [
         {
@@ -444,7 +444,7 @@
     {
       "output_json": "新闻报道/json/2020.json",
       "output_markdown": "新闻报道/2020.md",
-      "config_yml": "新闻报道/index_config.yml",
+      "template_path": "../templates/新闻报道/新闻索引.template.md",
       "include_description": true,
       "queries": [
         {
@@ -465,7 +465,7 @@
     {
       "output_json": "新闻报道/json/2021.json",
       "output_markdown": "新闻报道/2021.md",
-      "config_yml": "新闻报道/index_config.yml",
+      "template_path": "../templates/新闻报道/新闻索引.template.md",
       "include_description": true,
       "queries": [
         {
@@ -486,7 +486,7 @@
     {
       "output_json": "新闻报道/json/2022.json",
       "output_markdown": "新闻报道/2022.md",
-      "config_yml": "新闻报道/index_config.yml",
+      "template_path": "../templates/新闻报道/新闻索引.template.md",
       "include_description": true,
       "queries": [
         {
@@ -507,7 +507,7 @@
     {
       "output_json": "新闻报道/json/2023.json",
       "output_markdown": "新闻报道/2023.md",
-      "config_yml": "新闻报道/index_config.yml",
+      "template_path": "../templates/新闻报道/新闻索引.template.md",
       "include_description": true,
       "queries": [
         {
@@ -528,7 +528,7 @@
     {
       "output_json": "新闻报道/json/2024.json",
       "output_markdown": "新闻报道/2024.md",
-      "config_yml": "新闻报道/index_config.yml",
+      "template_path": "../templates/新闻报道/新闻索引.template.md",
       "include_description": true,
       "queries": [
         {
@@ -542,6 +542,26 @@
           "years": ["2024"],
           "domains": ["digital.transchinese.org"],
           "term": "杂志及新闻报道",
+          "update_interval_hours": 1
+        }
+      ]
+    },
+    {
+      "output_json": "新闻报道/json/2025.json",
+      "output_markdown": "新闻报道/2025.md",
+      "template_path": "../templates/新闻报道/新闻索引.template.md",
+      "include_description": true,
+      "queries": [
+        {
+          "description": "2025 news from news.transchinese.org",
+          "years": ["2025"],
+          "domains": ["news.transchinese.org"],
+          "update_interval_hours": 1
+        },
+        {
+          "description": "2025 magazine articles from digital.transchinese.org",
+          "years": ["2025"],
+          "domains": ["digital.transchinese.org"],
           "update_interval_hours": 1
         }
       ]

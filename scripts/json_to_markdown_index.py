@@ -47,7 +47,7 @@ def render_markdown_from_grouped_data(grouped_data, include_desc=False):
     for region in sorted(grouped_data.keys()):
         lines.append(f"### {region}\n")
 
-        months_sorted = sorted(grouped_data[region].keys(), reverse=True)
+        months_sorted = sorted(grouped_data[region].keys(), reverse=False)
         for month_key in months_sorted:
             if month_key == "Unknown":
                 lines.append(f"#### 未知月份\n")
@@ -70,25 +70,27 @@ def render_markdown_from_grouped_data(grouped_data, include_desc=False):
             for entry in items:
                 url_clean = entry["url"].rstrip("/")
                 last_part = url_clean.split("/")[-1]
-                title = re.sub(r'[a-zA-Z0-9_\-\.]+', '', last_part)
-                title = re.sub(r'[^\u4e00-\u9fff]+', '', title)
-                if not title:
-                    title = last_part
+                # remove xxx_ from the start of the string, xxx can be 0-9 and a-z
+                title = re.sub(r'^[0-9a-z]+_', '', last_part)
 
-                line = f"- [{title} - archive]({entry['url']}) [original]({entry['link']})"
+                # If original link is available, use both links
+                if entry.get('link') and entry['link'].lower() != 'unknown':
+                    line = f"[{title}]({entry['link']}) [archive]({entry['url']})"
+                else:
+                    # If no original link, use archive link as the main link
+                    line = f"[{title}]({entry['url']})"
+
                 if include_desc and entry["desc"]:
                     line += (
-                        "\n  <details><summary>查看简要</summary>\n\n"
-                        f"  {entry['desc']}\n"
-                        "  </details>"
+                        f"\n\n{entry['desc']}\n"
                     )
                 lines.append(line)
 
-            lines.append("")
+            lines.append("\n")
         lines.append("")
     return "\n".join(lines)
 
-def generate_markdown_from_json(input_json, output_markdown, config_yml="index_config.yml", include_desc=False):
+def generate_markdown_from_json(input_json, output_markdown, template_path="templates/新闻报道/新闻索引.template.md", include_desc=False):
     # 读取JSON数据
     with open(input_json, 'r', encoding='utf-8') as f:
         data = json.load(f)
@@ -96,9 +98,9 @@ def generate_markdown_from_json(input_json, output_markdown, config_yml="index_c
     metadata = data["metadata"]
     items = data["items"]
     
-    # 读取配置
-    cfg = load_config(config_path=config_yml)
-    seo = cfg.get("seo", {})
+    # 读取模板
+    with open(template_path, 'r', encoding='utf-8') as f:
+        template = f.read()
     
     # Get all unique years from all metadata entries
     all_years = set()
@@ -109,43 +111,23 @@ def generate_markdown_from_json(input_json, output_markdown, config_yml="index_c
     # 确定年份范围
     year_range = f"{years_sorted[0]}-{years_sorted[-1]}" if len(years_sorted) > 1 else str(years_sorted[0])
     
-    # 生成front matter
-    front_matter_lines = []
-    year_title = f'{seo.get("title", "信息导航")} ({year_range}年)'
-    front_matter_lines.extend([
-        "---",
-        f'title: "{year_title}"',
-        f'description: "{seo.get("description", "")}"',
-        f'date: "{datetime.now().strftime("%Y-%m-%d")}"'
-    ])
-    
-    tags = seo.get("tags", [])
-    if tags:
-        front_matter_lines.append("tags:")
-        for t in tags:
-            front_matter_lines.append(f"  - {t}")
-    front_matter_lines.append("---\n")
-    
-    # 生成主体内容
-    body_lines = [
-        f"# {year_title}\n"
-    ]
-    
-    if seo.get("description"):
-        body_lines.append(f"{seo['description']}\n")
-    
+    # 生成年份范围描述
     if len(years_sorted) > 1:
-        body_lines.append(f"> 本索引收录了{years_sorted[0]}年至{years_sorted[-1]}年的相关信息。\n")
+        year_range_description = f"> 本索引收录了{years_sorted[0]}年至{years_sorted[-1]}年的相关信息。"
     else:
-        body_lines.append(f"> 本索引收录了{years_sorted[0]}年的相关信息。\n")
+        year_range_description = f"> 本索引收录了{years_sorted[0]}年的相关信息。"
     
     # 处理数据并生成Markdown
     grouped = group_data_by_region_and_month(items)
     content_md = render_markdown_from_grouped_data(grouped, include_desc=include_desc)
-    body_lines.append(content_md)
     
-    # 合成最终的Markdown
-    final_md = "\n".join(front_matter_lines) + "\n".join(body_lines)
+    # 填充模板
+    final_md = template.format(
+        year_range=year_range,
+        current_date=datetime.now().strftime("%Y-%m-%d"),
+        year_range_description=year_range_description,
+        content=content_md
+    )
     
     # 输出
     if output_markdown:

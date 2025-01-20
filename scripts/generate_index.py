@@ -102,7 +102,8 @@ class NewsIndexGenerator:
                     data = fetch_data(
                         term=query.get("term", ""),
                         year=year,
-                        domain=domain
+                        domain=domain,
+                        exclude_url_reg=query.get("exclude_url_reg")
                     )
                     all_data.extend(data)
             
@@ -112,7 +113,8 @@ class NewsIndexGenerator:
                 "years": query["years"],
                 "domains": query["domains"],
                 "fetch_time": datetime.now().isoformat(),
-                "description": query["description"]
+                "description": query["description"],
+                "exclude_url_reg": query.get("exclude_url_reg")
             }
             
             # Update output data

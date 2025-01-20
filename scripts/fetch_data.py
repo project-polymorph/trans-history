@@ -6,8 +6,9 @@ import requests
 import argparse
 from datetime import datetime
 from pathlib import Path
+import re
 
-def fetch_data(term="", year="2024", domain="news.transchinese.org"):
+def fetch_data(term="", year="2024", domain="news.transchinese.org", exclude_url_reg=None):
     """
     Fetch JSON data from the transchinese.org API using requests.
     Returns a list of dict items, each containing:
@@ -16,12 +17,25 @@ def fetch_data(term="", year="2024", domain="news.transchinese.org"):
       - url:    archive link
       - link:   original link
       - description: text summary
+      
+    Args:
+        term (str): Search term
+        year (str): Year to search
+        domain (str): Domain to search
+        exclude_url_reg (str): Regular expression pattern to exclude URLs
     """
     api_url = f"https://transchinese.org/api/search?term={term}&year={year}&domain={domain}"
     try:
         resp = requests.get(api_url, timeout=15)
         resp.raise_for_status()
-        return resp.json()
+        data = resp.json()
+        
+        # Filter out items based on URL pattern if exclude_url_reg is provided
+        if exclude_url_reg:
+            pattern = re.compile(exclude_url_reg)
+            data = [item for item in data if not (pattern.search(item.get('url', '')) or pattern.search(item.get('link', '')))]
+            
+        return data
     except Exception as e:
         print(f"[WARN] Failed to fetch data from {api_url} -> {e}")
         return []
@@ -49,6 +63,7 @@ def main():
     parser.add_argument('--output', '-o', required=True, help='Output JSON file path.')
     parser.add_argument('--domains', nargs='+', default=["news.transchinese.org"], help='Domains to fetch from.')
     parser.add_argument('--append', action='store_true', help='Append to existing JSON file if it exists.')
+    parser.add_argument('--exclude-url-reg', help='Regular expression pattern to exclude URLs.')
     
     args = parser.parse_args()
     years_list = parse_years(args.years)
@@ -58,7 +73,7 @@ def main():
     for domain in args.domains:
         domain_data = []
         for year in years_list:
-            data = fetch_data(term=args.term, year=year, domain=domain)
+            data = fetch_data(term=args.term, year=year, domain=domain, exclude_url_reg=args.exclude_url_reg)
             domain_data.extend(data)
         all_data.extend(domain_data)
     

@@ -75,16 +75,30 @@ def render_markdown_from_grouped_data(grouped_data, include_desc=False):
 
                 # If original link is available, use both links
                 if entry.get('link') and entry['link'].lower() != 'unknown':
-                    line = f"[{title}]({entry['link']}) [archive]({entry['url']})"
+                    line = f"[{title}]({entry['link']})"
                 else:
                     # If no original link, use archive link as the main link
                     line = f"[{title}]({entry['url']})"
 
-                if include_desc and entry["desc"]:
-                    line += (
-                        f"\n\n{entry['desc']}\n"
-                    )
                 lines.append(line)
+
+                if include_desc and entry["desc"]:
+                    # Add metadata in quote block
+                    meta_parts = []
+                    if entry.get("date"):
+                        meta_parts.append(f"发布日期：{entry['date']}")
+                    if entry.get("author"):
+                        meta_parts.append(f"作者：{entry['author']}")
+                    if entry.get("tags"):
+                        meta_parts.append(f"标签：{', '.join(entry['tags'])}")
+                    if entry.get("url"):
+                        meta_parts.append(f"[存档链接]({entry['url']})")
+                    
+                    # Add description in quote block
+                    lines.append(f"\n> {entry['desc']}")
+                    if meta_parts:
+                        lines.append(f"> \n> {' | '.join(meta_parts)}")
+                    lines.append("")
 
             lines.append("\n")
         lines.append("")

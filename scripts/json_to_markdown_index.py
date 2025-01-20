@@ -72,7 +72,8 @@ def render_markdown_from_grouped_data(grouped_data, include_desc=False):
                 last_part = url_clean.split("/")[-1]
                 # remove xxx_ from the start of the string, xxx can be 0-9 and a-z
                 title = re.sub(r'^[0-9a-z]+_', '', last_part)
-
+                title = title.replace("_page", "")
+                title = title.replace("_", " ")
                 # If original link is available, use both links
                 if entry.get('link') and entry['link'].lower() != 'unknown':
                     line = f"[{title}]({entry['link']})"
@@ -83,6 +84,14 @@ def render_markdown_from_grouped_data(grouped_data, include_desc=False):
                 lines.append(line)
 
                 if include_desc and entry["desc"]:
+                    # Add description in quote block
+                    if entry["desc"]:
+                        # Split description into paragraphs and add '>' before each
+                        desc_paragraphs = entry["desc"].split('\n')
+                        for para in desc_paragraphs:
+                            if para.strip():  # Only add non-empty paragraphs
+                                lines.append(f">\n> {para.strip()}")
+                    
                     # Add metadata in quote block
                     meta_parts = []
                     if entry.get("date"):
@@ -94,8 +103,6 @@ def render_markdown_from_grouped_data(grouped_data, include_desc=False):
                     if entry.get("url"):
                         meta_parts.append(f"[存档链接]({entry['url']})")
                     
-                    # Add description in quote block
-                    lines.append(f"\n> {entry['desc']}")
                     if meta_parts:
                         lines.append(f"> \n> {' | '.join(meta_parts)}")
                     lines.append("")

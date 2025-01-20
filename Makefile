@@ -3,7 +3,7 @@
 build:
 	make docs/新闻报道
 	make docs/学术研究与调查报告
-	cp -R templates/政策法规 docs/政策法规
+	make docs/政策法规
 	make docs/综合索引
 
 docs/新闻报道:
@@ -15,7 +15,7 @@ docs/学术研究与调查报告:
 	cd docs && python ../scripts/generate_index.py --config paper_query.json --state .paper_index_state.json	
 
 docs/政策法规:
-	mkdir -p docs/政策法规
+	cp -R templates/政策法规 docs/政策法规
 	cd docs && python ../scripts/generate_index.py --config policy_query.json --state .policy_index_state.json
 
 docs/综合索引:

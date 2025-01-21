@@ -8,7 +8,7 @@
       "domains": [
         "news.transchinese.org"
       ],
-      "fetch_time": "2025-01-20T23:45:11.910051",
+      "fetch_time": "2025-01-21T18:19:49.900027",
       "description": "2008 news from news.transchinese.org",
       "exclude_url_reg": null
     },
@@ -20,7 +20,7 @@
       "domains": [
         "digital.transchinese.org"
       ],
-      "fetch_time": "2025-01-20T23:45:11.997385",
+      "fetch_time": "2025-01-21T18:19:49.985975",
       "description": "2008 magazine articles from digital.transchinese.org",
       "exclude_url_reg": null
     }
@@ -99,45 +99,6 @@
       "format": "Markdown",
       "size": 2372,
       "link": "http://news.cjn.cn/kj/200807/t693122.htm"
-    },
-    {
-      "url": "https://news.transchinese.org/未分类/news_美国女子变性后人工授精替妻子怀孕_组图_",
-      "description": "本文报道了一名变性男性托马斯·比提（Thomas Beattie）的独特经历，他在妻子无法怀孕的情况下，亲自进行人工授精，并怀孕生子。比提在接受变性手术后，与妻子南茜（Nancy）结婚，但由于妻子因健康原因失去了生育能力，托马斯决定冒险怀孕。他在进行了一段时间的激素治疗后，停止了睾丸激素注射，并成功恢复了月经。托马斯的经历引发了法律与伦理的讨论，因为变性人在怀孕过程中的法律地位极其复杂。尽管怀着孩子，托马斯依然认为自己是男性，并在怀孕过程中面临了诸多挑战。文章也记录了网民对此事件的不同评论，显示出社会对变性人与生育问题的多元看法。",
-      "tags": [
-        "变性",
-        "跨性别者",
-        "怀孕",
-        "法律问题",
-        "家庭",
-        "人工授精",
-        "生育问题"
-      ],
-      "type": "webpage",
-      "author": "未知",
-      "date": "2008-03-27",
-      "region": "美国",
-      "format": "Markdown",
-      "size": 5335,
-      "link": "https://news.sina.cn/sa/2008-03-27/detail-ikftssap3013047.d.html"
-    },
-    {
-      "url": "https://news.transchinese.org/未分类/news_身高1米8男子变性穿上短裙变漂亮女人_图_",
-      "description": "本文介绍了26岁的跨性别女孩小王在完成变性手术后首次以女性身份走出医院的经历。小王生于男性身体，但内心深处对女性身份的向往促使她进行了长达4小时的变性手术。文章描述了她手术后的恢复过程，情绪变化以及如何在护士的帮助下逐渐适应并学习女性的生活方式。在出院之际，小王穿上了花裙子和假发，首次体验到化妆和打扮的乐趣。文中提到小王将与家人一起回乡调养身体，并计划在今后继续改善自己。心理咨询师强调了小王在社会生活中学会生存技能的重要性。",
-      "tags": [
-        "变性手术",
-        "跨性别",
-        "生命故事",
-        "医院经历",
-        "心理辅导",
-        "女性化过程"
-      ],
-      "type": "webpage",
-      "author": "李洁",
-      "date": "2008-05-29",
-      "region": "中国大陆",
-      "format": "Markdown",
-      "size": 5585,
-      "link": "https://news.sina.cn/sa/2008-05-29/detail-ikkntian0644365.d.html"
     },
     {
       "url": "https://news.transchinese.org/未分类/www_湖北双性人成功在桂变身女性_-_广西新闻网",

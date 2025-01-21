@@ -8,7 +8,7 @@
       "domains": [
         "news.transchinese.org"
       ],
-      "fetch_time": "2025-01-20T23:45:15.001977",
+      "fetch_time": "2025-01-21T18:19:52.915565",
       "description": "2022 news from news.transchinese.org",
       "exclude_url_reg": null
     },
@@ -20,7 +20,7 @@
       "domains": [
         "digital.transchinese.org"
       ],
-      "fetch_time": "2025-01-20T23:45:15.093564",
+      "fetch_time": "2025-01-21T18:19:53.001641",
       "description": "2022 magazine articles from digital.transchinese.org",
       "exclude_url_reg": null
     }
@@ -2223,7 +2223,7 @@
       "type": "webpage",
       "author": "墨心",
       "date": "2022-09-01",
-      "region": "中国大陆市",
+      "region": "中国大陆",
       "format": "Markdown",
       "size": 5542,
       "link": "https://www.sohu.com/a/581616410_115479"
@@ -2382,7 +2382,7 @@
       "type": "webpage",
       "author": "凯瑟蓝",
       "date": "2022-12-16",
-      "region": "山西省，中国",
+      "region": "中国大陆",
       "format": "Markdown",
       "size": 15140,
       "link": "https://www.sohu.com/a/617915173_121119349"
@@ -3868,7 +3868,7 @@
       "type": "webpage",
       "author": "铃音音123",
       "date": "2022-05-18",
-      "region": "江苏，中国",
+      "region": "中国大陆",
       "format": "Markdown",
       "size": 3301,
       "link": "https://k.sina.cn/article_6054885179_168e6373b00101876e.html"

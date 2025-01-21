@@ -8,7 +8,7 @@
       "domains": [
         "news.transchinese.org"
       ],
-      "fetch_time": "2025-01-20T23:45:11.034414",
+      "fetch_time": "2025-01-21T18:19:49.071037",
       "description": "2004 news from news.transchinese.org",
       "exclude_url_reg": null
     },
@@ -20,7 +20,7 @@
       "domains": [
         "digital.transchinese.org"
       ],
-      "fetch_time": "2025-01-20T23:45:11.109840",
+      "fetch_time": "2025-01-21T18:19:49.161275",
       "description": "2004 magazine articles from digital.transchinese.org",
       "exclude_url_reg": null
     }
@@ -105,25 +105,6 @@
       "format": "Markdown",
       "size": 10995,
       "link": "http://news.cnnb.com.cn/system/2004/04/25/000802178.shtml"
-    },
-    {
-      "url": "https://news.transchinese.org/未分类/news_成都变性人以女人的名义再婚_组图_",
-      "description": "这篇文章讲述了变性人章琳的婚礼故事，这是中国全国首例变性人婚礼。章琳在2003年9月完成了性别重置手术，并于2004年3月与其男友杨启成订婚。在经历了一系列手术和法律手续后，章琳于2004年5月1日在家乡举行了婚礼，成为当地媒体关注的焦点。文章详细描述了她的变性过程、婚礼现场的情形以及她对自己经历的感悟，反映了变性人在社会中的生存现状和心理状态。婚礼现场出席者众多，但亲属寥寥，显示出社会对跨性别群体的复杂态度。章琳希望借此机会与其他经历相似的跨性别人士分享她的快乐，同时也希望社会能更多地理解并接受他们。",
-      "tags": [
-        "变性人",
-        "婚礼",
-        "跨性别",
-        "生命故事",
-        "社会接受度",
-        "心理健康"
-      ],
-      "type": "webpage",
-      "author": "未知",
-      "date": "2004-05-01",
-      "region": "中国大陆",
-      "format": "Markdown",
-      "size": 5024,
-      "link": "https://news.sina.cn/sa/2004-05-14/detail-ikkntiak9904374.d.html"
     },
     {
       "url": "https://news.transchinese.org/未分类/news_泰国一学校专为人妖设立“粉红莲花厕所”-新闻中心-中国宁波网",
@@ -350,7 +331,7 @@
       "type": "webpage",
       "author": "南方网",
       "date": "2004-02-25",
-      "region": "吉林省, 中国",
+      "region": "中国大陆",
       "format": "Markdown",
       "size": 5053,
       "link": "http://news.sohu.com/2004/02/25/89/news219198956.shtml"
@@ -578,7 +559,7 @@
       "type": "webpage",
       "author": "徐曼丽、任慧康",
       "date": "2004-11-24",
-      "region": "浙江，中国大陆",
+      "region": "中国大陆",
       "format": "Markdown",
       "size": 8213,
       "link": "http://news.sohu.com/20041124/n223152834.shtml"
@@ -1096,7 +1077,7 @@
       "type": "webpage",
       "author": "鲁中晨报",
       "date": "2004-01-03",
-      "region": "四川, 中国",
+      "region": "中国大陆",
       "format": "Markdown",
       "size": 6910,
       "link": "https://news.sina.cn/sa/2004-01-03/detail-ikknscsi2209402.d.html"
@@ -1364,7 +1345,7 @@
       "type": "webpage",
       "author": "刘大江",
       "date": "2004-05-01",
-      "region": "四川, 中国",
+      "region": "中国大陆",
       "format": "Markdown",
       "size": 3249,
       "link": "https://news.sina.cn/sa/2004-05-01/detail-ikkntiak9859586.d.html"
@@ -1465,6 +1446,25 @@
       "format": "Markdown",
       "size": 5471,
       "link": "https://news.sina.cn/sa/2004-12-09/detail-ikknscsi5103950.d.html"
+    },
+    {
+      "url": "https://news.transchinese.org/新浪新闻/news_成都变性人以女人的名义再婚_组图_",
+      "description": "这篇文章讲述了变性人章琳的婚礼故事，这是中国全国首例变性人婚礼。章琳在2003年9月完成了性别重置手术，并于2004年3月与其男友杨启成订婚。在经历了一系列手术和法律手续后，章琳于2004年5月1日在家乡举行了婚礼，成为当地媒体关注的焦点。文章详细描述了她的变性过程、婚礼现场的情形以及她对自己经历的感悟，反映了变性人在社会中的生存现状和心理状态。婚礼现场出席者众多，但亲属寥寥，显示出社会对跨性别群体的复杂态度。章琳希望借此机会与其他经历相似的跨性别人士分享她的快乐，同时也希望社会能更多地理解并接受他们。",
+      "tags": [
+        "变性人",
+        "婚礼",
+        "跨性别",
+        "生命故事",
+        "社会接受度",
+        "心理健康"
+      ],
+      "type": "webpage",
+      "author": "未知",
+      "date": "2004-05-01",
+      "region": "中国大陆",
+      "format": "Markdown",
+      "size": 5161,
+      "link": "https://news.sina.cn/sa/2004-05-14/detail-ikkntiak9904374.d.html"
     },
     {
       "url": "https://news.transchinese.org/新浪新闻/news_成都变性人领到结婚证将于五一节结婚_图_",

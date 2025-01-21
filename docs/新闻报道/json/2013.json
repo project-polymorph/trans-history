@@ -8,7 +8,7 @@
       "domains": [
         "news.transchinese.org"
       ],
-      "fetch_time": "2025-01-20T23:45:12.927182",
+      "fetch_time": "2025-01-21T18:19:51.038106",
       "description": "2013 news from news.transchinese.org",
       "exclude_url_reg": null
     },
@@ -20,7 +20,7 @@
       "domains": [
         "digital.transchinese.org"
       ],
-      "fetch_time": "2025-01-20T23:45:13.007584",
+      "fetch_time": "2025-01-21T18:19:51.121513",
       "description": "2013 magazine articles from digital.transchinese.org",
       "exclude_url_reg": null
     }
@@ -324,7 +324,7 @@
       "type": "webpage",
       "author": "李望舒, 黄静",
       "date": "2013-09-11",
-      "region": "广西，中国大陆",
+      "region": "中国大陆",
       "format": "Markdown",
       "size": 6542,
       "link": "https://v.gxnews.com.cn/a/8511698?pageno=2"

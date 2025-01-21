@@ -8,7 +8,7 @@
       "domains": [
         "news.transchinese.org"
       ],
-      "fetch_time": "2025-01-20T23:45:15.214897",
+      "fetch_time": "2025-01-21T18:19:53.228790",
       "description": "2023 news from news.transchinese.org",
       "exclude_url_reg": null
     },
@@ -20,7 +20,7 @@
       "domains": [
         "digital.transchinese.org"
       ],
-      "fetch_time": "2025-01-20T23:45:15.299425",
+      "fetch_time": "2025-01-21T18:19:53.327909",
       "description": "2023 magazine articles from digital.transchinese.org",
       "exclude_url_reg": null
     }
@@ -647,6 +647,22 @@
       "link": "https://m.look.360.cn/transcoding?callback=jQuery112406393021999392658_1696377600011&sign=360_36e79513&device=0&u=234898968.3191343510429902000.1642636800000.6777&pg=1&n=10&gzh=3425300743&scene=61&_=1695168000000&url=http%3A%2F%2Fzm.news.so.com%2F24651a4cf65385e2582bfe669b6b1290&check=1dce5fa72b3b0420&ucheck=5c1e3c100fd0c454ded8ed56c159058f&uid=234898968.3191343510429902000.1642636800000.6777&360newsdetail=1&c=detail&apiflag=detail&hscmt=1&sign=360_d99f085d"
     },
     {
+      "url": "https://news.transchinese.org/未分类/m_迪士尼为《小美人鱼》舞台剧选主角_必须跨性别者饰演",
+      "description": "本文讨论了迪士尼在选角过程中对跨性别者的要求。在2023年年初，迪士尼发布了关于《小美人鱼》音乐舞台剧选角的公告，明确表示女主爱丽儿和男主亚力克必须由跨性别者饰演。该公告引起了广泛关注与讨论，尤其是在对性别表达多样性的重视上。最近，有网友注意到迪士尼修改了公告，虽然删除了“跨性别者”的字眼，但同时也没有明确要求男性或女性，这一做法引发了大家对迪士尼在性别包容性方面的讨论。文章引用了网友对此事件的看法，并指出迪士尼似乎依然坚持寻找性别包容的演员阵容，只是修改了措辞，使要求变得更加模糊。",
+      "tags": [
+        "多元性别",
+        "跨性别",
+        "迪士尼"
+      ],
+      "type": "webpage",
+      "author": "未知",
+      "date": "2023-01-01",
+      "region": "未知",
+      "format": "Markdown",
+      "size": 1279,
+      "link": "https://m.cnbeta.com.tw/view/1459724.htm"
+    },
+    {
       "url": "https://news.transchinese.org/未分类/m_雄激素如何影响乳房组织的新认识_-_生物通",
       "description": "本文件讨论了雄激素对跨性别男性乳房组织的影响，以及这些发现可能对乳腺癌的预防和治疗产生的潜在意义。研究显示，接受雄激素治疗的变性男性乳房组织中，与未接受治疗的个体相比，表现出对雌激素反应的乳腺细胞受到的影响更少。这项研究的核心在于探讨雄激素如何通过激活其受体来抑制雌激素受体阳性乳腺癌的生长，指明未来的治疗方向。研究小组利用基因测序等技术，分析了不同样本中的细胞变化和免疫细胞组成的差异，为进一步研究低剂量雄激素在高危人群中的影响奠定了基础。这项研究强调了跨性别群体在癌症研究中的重要性，试图以更广泛的视野来瞄准这些历史上被忽视的个体。",
       "tags": [
@@ -681,7 +697,7 @@
       "type": "webpage",
       "author": "记者 陈驰",
       "date": "2023-06-23",
-      "region": "株洲，中国",
+      "region": "中国大陆",
       "format": "Markdown",
       "size": 7425,
       "link": "https://moment.rednet.cn/rednetcms/news/localNews/20150623/162128.html"
@@ -1338,24 +1354,6 @@
       "format": "Markdown",
       "size": 4193,
       "link": "https://tw.news.yahoo.com/%E8%B7%A8%E6%80%A7%E5%88%A5%E8%80%85%E5%9C%A8%E4%B8%AD%E5%9C%8B%E7%9A%84%E5%BE%85%E9%81%87%E8%88%87%E5%A8%81%E8%84%85-%E5%AE%88%E8%88%8A%E6%80%9D%E6%83%B3%E8%B6%95%E5%BE%97%E4%B8%8A%E6%96%B0%E6%99%82%E4%BB%A3%E5%97%8E-101151826.html"
-    },
-    {
-      "url": "https://news.transchinese.org/未分类/video_视频男子给自己做变性手术假扮医生再给18岁男生动刀",
-      "description": "该视频报道了一个男子在自我进行变性手术的情况下，假扮医生为一名18岁男生动手术的事件。这一行为引发了社会的广泛关注和讨论，涉及医疗伦理、跨性别者的自我认同及表述，以及对变性手术的社会理解。随着跨性别群体在公众视野中的日益突出，此类事件引出对相关法律和社会环境的深思。视频中附带了许多评论，讨论了这一行动的合法性和道德性，以及对跨性别群体的影响和医疗资源的可及性。",
-      "tags": [
-        "跨性别",
-        "变性手术",
-        "社会新闻",
-        "医疗伦理",
-        "人权"
-      ],
-      "type": "webpage",
-      "author": "未知",
-      "date": "2023-10-01",
-      "region": "未知",
-      "format": "Markdown",
-      "size": 9242,
-      "link": "http://video.sina.cn/news/i/2018-09-22/detail-ifxeuwwr7156438.d.html?oid=3775837201430559&vt=4&cid=37766"
     },
     {
       "url": "https://news.transchinese.org/未分类/view_在跨性别青少年门诊，目睹中国家庭的撕裂-腾讯新闻",
@@ -3511,7 +3509,7 @@
       "type": "webpage",
       "author": "未知",
       "date": "2023-02-20",
-      "region": "江西省，中国大陆",
+      "region": "中国大陆",
       "format": "Markdown",
       "size": 3230,
       "link": "https://www.sohu.com/a/643474200_121388069"
@@ -3683,7 +3681,7 @@
       "type": "webpage",
       "author": "澎湃新闻",
       "date": "2023-07-25",
-      "region": "中国大陆市",
+      "region": "中国大陆",
       "format": "Markdown",
       "size": 2773,
       "link": "https://www.sohu.com/a/706373644_260616"
@@ -3783,7 +3781,7 @@
       "type": "webpage",
       "author": "芊芊子吟",
       "date": "2023-07-02",
-      "region": "山西省，中国",
+      "region": "中国大陆",
       "format": "Markdown",
       "size": 14931,
       "link": "https://www.sohu.com/a/693116475_121641437"
@@ -3882,7 +3880,7 @@
       "type": "webpage",
       "author": "李璨（监制）",
       "date": "2023-03-22",
-      "region": "北京市，中国",
+      "region": "中国大陆",
       "format": "Markdown",
       "size": 10015,
       "link": "https://www.sohu.com/a/657674988_107743"
@@ -3903,7 +3901,7 @@
       "type": "webpage",
       "author": "未知",
       "date": "2023-08-21",
-      "region": "山东省，中国",
+      "region": "中国大陆",
       "format": "Markdown",
       "size": 8733,
       "link": "https://www.sohu.com/a/713680429_121347613"
@@ -3944,7 +3942,7 @@
       "type": "webpage",
       "author": "医道社",
       "date": "2023-08-22",
-      "region": "中国大陆市",
+      "region": "中国大陆",
       "format": "Markdown",
       "size": 9353,
       "link": "https://www.sohu.com/a/713884638_121684222"
@@ -5289,7 +5287,7 @@
       "type": "webpage",
       "author": "未知",
       "date": "2023-06-20",
-      "region": "四川, 中国",
+      "region": "中国大陆",
       "format": "Markdown",
       "size": 9754,
       "link": "https://www.163.com/dy/article/I7N26M4K05524KLP.html"

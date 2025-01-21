@@ -8,7 +8,7 @@
       "domains": [
         "news.transchinese.org"
       ],
-      "fetch_time": "2025-01-20T23:45:13.344320",
+      "fetch_time": "2025-01-21T18:19:51.479735",
       "description": "2015 news from news.transchinese.org",
       "exclude_url_reg": null
     },
@@ -20,7 +20,7 @@
       "domains": [
         "digital.transchinese.org"
       ],
-      "fetch_time": "2025-01-20T23:45:13.426213",
+      "fetch_time": "2025-01-21T18:19:51.571023",
       "description": "2015 magazine articles from digital.transchinese.org",
       "exclude_url_reg": null
     }
@@ -233,7 +233,7 @@
       "type": "webpage",
       "author": "京华时报",
       "date": "2015-11-09",
-      "region": "重庆，中国大陆",
+      "region": "中国大陆",
       "format": "Markdown",
       "size": 5287,
       "link": "https://m.fznews.com.cn/fuzhou/20151109/56400ef9e4fa7_2.shtml"
@@ -256,46 +256,6 @@
       "format": "Markdown",
       "size": 5538,
       "link": "http://news.cnr.cn/native/gd/20150115/t20150115_517438150.shtml"
-    },
-    {
-      "url": "https://news.transchinese.org/未分类/news_2015：当青春撞见新时代",
-      "description": "本文讨论了2015年中国青年的成长与改革，涵盖了法律、社会服务以及个人努力等多个方面。文章开篇提到法律制度的变革，例如《关于依法处理监护人侵害未成年人权益行为若干问题的意见》的实施，标志着未成年人保护工作的开端。同时，文中介绍了公益项目“女童保护”的负责人孙雪梅，她在新年中表达了希望通过司法改革提升未成年人权益的保护力度。接着，文章提到大学生村官王欢以及其通过互联网助力农民增收的努力，展现了青春与时代发展的紧密结合。网络作家花千芳则表达了学习与创作的社会责任，指望通过文艺活动引领时代。在总结部分，记者吴楚等人展示了媒体人在改革时代中的角色与责任，强调面对艰难挑战仍需坚持的精神。整篇文章通过多位青年的故事，描绘了中国社会在新时代面临的机遇与挑战。",
-      "tags": [
-        "青春",
-        "社会改革",
-        "未成年人权益",
-        "公益活动",
-        "法律政策",
-        "网络文化",
-        "个人故事"
-      ],
-      "type": "webpage",
-      "author": "中国青年网",
-      "date": "2015-01-01",
-      "region": "中国大陆",
-      "format": "Markdown",
-      "size": 5517,
-      "link": "http://news.xinhuanet.com/politics/2015-01/04/c_127357332_2.htm"
-    },
-    {
-      "url": "https://news.transchinese.org/未分类/news_云南文物古楼火灾被毁爆料称已被私人承包做茶社",
-      "description": "本文报道了一起发生在2015年1月3日的火灾事件，该火灾发生在云南巍山县的拱辰楼，这是一座有着600年历史的省级文物保护单位。报道中提到，发生火灾的前一天，有游客曾经以两元的门票费用进入楼内，并注意到楼内有一家茶社。火灾发生后，媒体接到知情者爆料，称拱辰楼被私人承包作为茶社使用，这引发了对文物保护单位经营性活动是否合法的讨论。根据《国有文物保护单位经营性活动管理规定(试行)》，禁止将文物保护单位承包、租赁给企业以营利。此事件引起了当地媒体的关注，但官方尚未对此做出回应。",
-      "tags": [
-        "云南",
-        "火灾",
-        "文物保护",
-        "法律政策",
-        "社会环境",
-        "茶社",
-        "公园管理"
-      ],
-      "type": "webpage",
-      "author": "未知",
-      "date": "2015-01-03",
-      "region": "中国大陆",
-      "format": "Markdown",
-      "size": 2219,
-      "link": "http://news.xinhuanet.com/politics/2015-01/05/c_127358044.htm"
     },
     {
       "url": "https://news.transchinese.org/未分类/news_人妖的悲惨生活",
@@ -948,28 +908,6 @@
       "format": "Markdown",
       "size": 17762,
       "link": "https://news.66wz.com/system/2015/06/23/104490041.shtml"
-    },
-    {
-      "url": "https://news.transchinese.org/未分类/news_首届世界媒体峰会全球新闻奖颁奖仪式将于1月底在京举行",
-      "description": "本文介绍了首届世界媒体峰会全球新闻奖的颁奖仪式将于2015年1月27日在北京举行的相关信息。获得的奖项包括多个类别，其中发展中国家优秀新闻团队奖、发展中国家优秀新闻从业人员奖、媒体创新奖和新媒体报道奖。文章列出了获奖者和提名名单，并提供了赛事的背景及其宗旨。全球新闻奖是一个涵盖多种媒体形式、开放给全球参与的新闻赛事，征集时间为2014年7月至9月，共接收来自138个国家和地区的1424件作品。",
-      "tags": [
-        "新闻奖",
-        "媒体峰会",
-        "新闻报道",
-        "跨国媒体",
-        "发展中国家",
-        "新闻创新",
-        "#奖项",
-        "颁奖仪式",
-        "获奖作品"
-      ],
-      "type": "webpage",
-      "author": "新华网",
-      "date": "2015-01-04",
-      "region": "中国大陆",
-      "format": "Markdown",
-      "size": 2936,
-      "link": "http://news.xinhuanet.com/world/2015-01/04/c_1113864330.htm"
     },
     {
       "url": "https://news.transchinese.org/未分类/news_香港过去5年变性手术数字升3倍共40人完成手术",

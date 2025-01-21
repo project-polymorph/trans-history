@@ -8,7 +8,7 @@
       "domains": [
         "news.transchinese.org"
       ],
-      "fetch_time": "2025-01-20T23:45:12.713958",
+      "fetch_time": "2025-01-21T18:19:50.820632",
       "description": "2012 news from news.transchinese.org",
       "exclude_url_reg": null
     },
@@ -20,7 +20,7 @@
       "domains": [
         "digital.transchinese.org"
       ],
-      "fetch_time": "2025-01-20T23:45:12.822602",
+      "fetch_time": "2025-01-21T18:19:50.925215",
       "description": "2012 magazine articles from digital.transchinese.org",
       "exclude_url_reg": null
     }
@@ -334,7 +334,7 @@
       "type": "webpage",
       "author": "武汉晚报记者 杨京 实习生 魏凡 崔婷",
       "date": "2012-08-09",
-      "region": "武汉, 中国",
+      "region": "中国大陆",
       "format": "Markdown",
       "size": 2053,
       "link": "http://news.cjn.cn/sywh/201208/t2033234.htm"
@@ -1769,7 +1769,7 @@
       "type": "webpage",
       "author": "未知",
       "date": "2012-04-01",
-      "region": "湖北，中国",
+      "region": "中国大陆",
       "format": "Markdown",
       "size": 9234,
       "link": "http://hb.sina.com.cn/zt/weiniang/index.shtml"

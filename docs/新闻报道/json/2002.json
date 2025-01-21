@@ -8,7 +8,7 @@
       "domains": [
         "news.transchinese.org"
       ],
-      "fetch_time": "2025-01-20T23:45:10.691987",
+      "fetch_time": "2025-01-21T18:19:48.700204",
       "description": "2002 news from news.transchinese.org",
       "exclude_url_reg": null
     },
@@ -20,7 +20,7 @@
       "domains": [
         "digital.transchinese.org"
       ],
-      "fetch_time": "2025-01-20T23:45:10.774950",
+      "fetch_time": "2025-01-21T18:19:48.781576",
       "description": "2002 magazine articles from digital.transchinese.org",
       "exclude_url_reg": null
     }
@@ -199,7 +199,7 @@
       "type": "webpage",
       "author": "人民网",
       "date": "2002-05-26",
-      "region": "江苏，中国",
+      "region": "中国大陆",
       "format": "Markdown",
       "size": 7239,
       "link": "http://news.sohu.com/37/34/news201113437.shtml"

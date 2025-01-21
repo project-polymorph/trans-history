@@ -1,29 +1,29 @@
 {
   "queries": {
     "学术研究与调查报告/json/1990-2010.json:Historical magazine articles from digital.transchinese.org": {
-      "last_update": "2025-01-20T23:45:17.775732",
+      "last_update": "2025-01-21T18:19:55.845335",
       "output_path": "学术研究与调查报告/json/1990-2010.json"
     },
     "学术研究与调查报告/json/1990-2010.json:2011-2025 digital from digital.transchinese.org": {
-      "last_update": "2025-01-20T23:45:19.631585",
+      "last_update": "2025-01-21T18:19:57.843699",
       "output_path": "学术研究与调查报告/json/1990-2010.json"
     },
     "学术研究与调查报告/json/2011-2020.json:2011-2020 digital from digital.transchinese.org": {
-      "last_update": "2025-01-20T23:45:20.639235",
+      "last_update": "2025-01-21T18:19:58.719706",
       "output_path": "学术研究与调查报告/json/2011-2020.json"
     },
     "学术研究与调查报告/json/2011-2020.json:2011-2020 magazine articles from digital.transchinese.org": {
-      "last_update": "2025-01-20T23:45:21.575095",
+      "last_update": "2025-01-21T18:19:59.684917",
       "output_path": "学术研究与调查报告/json/2011-2020.json"
     },
     "学术研究与调查报告/json/2021-2025.json:2021-2025 digital from digital.transchinese.org": {
-      "last_update": "2025-01-20T23:45:22.057523",
+      "last_update": "2025-01-21T18:20:00.132448",
       "output_path": "学术研究与调查报告/json/2021-2025.json"
     },
     "学术研究与调查报告/json/2021-2025.json:2021-2025 magazine articles from digital.transchinese.org": {
-      "last_update": "2025-01-20T23:45:22.525393",
+      "last_update": "2025-01-21T18:20:00.645954",
       "output_path": "学术研究与调查报告/json/2021-2025.json"
     }
   },
-  "last_update": "2025-01-20T23:45:22.532124"
+  "last_update": "2025-01-21T18:20:00.652456"
 }

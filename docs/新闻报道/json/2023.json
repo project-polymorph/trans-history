@@ -8,7 +8,7 @@
       "domains": [
         "news.transchinese.org"
       ],
-      "fetch_time": "2025-01-21T18:19:53.228790",
+      "fetch_time": "2025-01-27T12:33:15.150784",
       "description": "2023 news from news.transchinese.org",
       "exclude_url_reg": null
     },
@@ -20,7 +20,7 @@
       "domains": [
         "digital.transchinese.org"
       ],
-      "fetch_time": "2025-01-21T18:19:53.327909",
+      "fetch_time": "2025-01-27T12:33:15.205861",
       "description": "2023 magazine articles from digital.transchinese.org",
       "exclude_url_reg": null
     }
@@ -6366,41 +6366,6 @@
       "format": "Markdown",
       "size": 5438,
       "link": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fwm%2F2023-03-04%2Fdoc-imyisrka1340562.shtml&from=redirect"
-    },
-    {
-      "url": "https://news.transchinese.org/新浪新闻/edu_cdts是什么意思的缩写_-_爱问教育",
-      "description": "本文探讨了‘cdts’的含义，解释了其作为一个特定群体的构成和心理特征。‘cdts’是‘Coss Dress’和‘Trans Sexual’的结合体，指的是那些有异性癖好的人群。文章指出，CD（易装者）和TS（变性人）之间的区别在于，CD希望以异装来表达自己，而TS则否认自身性别，希望通过手术彻底改变性别。作者提供了这两个群体的心理状态及生理特征，并讨论了其社会认同与自我认同之间的差异。文中也提到，现代社会中大多数的变性案例是男性转变为女性，这种文化现象和社会背景提供了一个更广泛的视角。文章通过具体案例和研究成果探讨了这一主题，提供了对易性者与变装者的深入理解。",
-      "tags": [
-        "cdts",
-        "易性者",
-        "变性人",
-        "异性癖",
-        "性别认同"
-      ],
-      "type": "webpage",
-      "author": "永不放弃",
-      "date": "2023-10-08",
-      "region": "未知",
-      "format": "Markdown",
-      "size": 2911,
-      "link": "https://edu.iask.sina.com.cn/jy/3kTBHmN32Cr.html"
-    },
-    {
-      "url": "https://news.transchinese.org/新浪新闻/edu_变装小说博客word_press（变装文学大全）_-_爱问教育",
-      "description": "该文件是关于变装文学的博客文章，属于跨性别文化的一部分，提供了相关的文学作品和体验分享。文章包含一些互动性的建议，鼓励读者积极提问和参与讨论，旨在帮助人们更好地获得信息和支持。内容中还提到了一些变装文学的特征，强调了与其他读者的交流和帮助。文章的作者是“老树开花”，由爱问知识人平台发布，带有插图和多个精选回答，表明作者对读者的关心及期望促成更深入的讨论。",
-      "tags": [
-        "变装文学",
-        "互动",
-        "经验分享",
-        "社区支持"
-      ],
-      "type": "webpage",
-      "author": "老树开花",
-      "date": "2023-08-20",
-      "region": "未知",
-      "format": "Markdown",
-      "size": 1411,
-      "link": "https://edu.iask.sina.com.cn/jy/kmEubOuly7.html"
     },
     {
       "url": "https://news.transchinese.org/新浪新闻/finance_明查｜华盛顿通过法案允许政府合法带走变性儿童误导_-_新浪财经",

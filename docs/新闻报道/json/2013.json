@@ -8,7 +8,7 @@
       "domains": [
         "news.transchinese.org"
       ],
-      "fetch_time": "2025-01-21T18:19:51.038106",
+      "fetch_time": "2025-01-27T12:33:13.697370",
       "description": "2013 news from news.transchinese.org",
       "exclude_url_reg": null
     },
@@ -20,7 +20,7 @@
       "domains": [
         "digital.transchinese.org"
       ],
-      "fetch_time": "2025-01-21T18:19:51.121513",
+      "fetch_time": "2025-01-27T12:33:13.758272",
       "description": "2013 magazine articles from digital.transchinese.org",
       "exclude_url_reg": null
     }
@@ -547,6 +547,25 @@
       "format": "Markdown",
       "size": 4930,
       "link": "https://ent.ifeng.com/movie/news/occident/detail_2013_02/05/21964674_0.shtml?_from_ralated"
+    },
+    {
+      "url": "https://news.transchinese.org/凤凰网/ent_《好声音》张新“反串”引争议26岁男孩雌雄难辨_-_娱乐-_凤凰网",
+      "description": "本文报道了2013年7月26日《好声音》的一场演出，其中来自重庆的学员张新以其独特的声线在节目中引发了对性别的广泛讨论。张新是一位26岁的男孩，他在比赛中演唱的歌曲《Falling》让评委和观众难以辨别他的性别，引起了导师的惊叹和观众的关注。此事件突显了对男性歌唱者性别表现的反思，尤其是张新高音部分极似女性声线，这让他在获得众多支持的同时也面临了一些质疑。在节目后的网络反馈中，大多数网民对其表演表达了欣赏，表明社会在逐渐变得开放与宽容。文章还提到张新自幼对音乐的热爱以及其家庭背景的压力，强调了个人表达与社会接受之间的冲突。",
+      "tags": [
+        "跨性别",
+        "性别表达",
+        "张新",
+        "中国好声音",
+        "反串",
+        "社会讨论"
+      ],
+      "type": "webpage",
+      "author": "新闻晚报",
+      "date": "2013-07-27",
+      "region": "中国大陆",
+      "format": "Markdown",
+      "size": 7326,
+      "link": "https://ent.ifeng.com/tv/special/haoshengyin2/content-3/detail_2013_07/27/27982778_0.shtml"
     },
     {
       "url": "https://news.transchinese.org/凤凰网/phtv_香港变性人争取婚姻权案终审胜诉_-_凤凰卫视",

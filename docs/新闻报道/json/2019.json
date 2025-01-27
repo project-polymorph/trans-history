@@ -8,7 +8,7 @@
       "domains": [
         "news.transchinese.org"
       ],
-      "fetch_time": "2025-01-21T18:19:52.281786",
+      "fetch_time": "2025-01-27T12:33:14.543145",
       "description": "2019 news from news.transchinese.org",
       "exclude_url_reg": null
     },
@@ -20,7 +20,7 @@
       "domains": [
         "digital.transchinese.org"
       ],
-      "fetch_time": "2025-01-21T18:19:52.363684",
+      "fetch_time": "2025-01-27T12:33:14.598601",
       "description": "2019 magazine articles from digital.transchinese.org",
       "exclude_url_reg": null
     }
@@ -966,24 +966,6 @@
       "format": "Markdown",
       "size": 6024,
       "link": "https://news.ifeng.com/c/7ouj0SdFrV8"
-    },
-    {
-      "url": "https://news.transchinese.org/凤凰网/pit_经典奇幻喜剧冒险电影人妖宿缘未了的爱情故事结局美好吗",
-      "description": "这是一篇关于经典奇幻喜剧冒险电影《人妖宿缘未了的爱情故事》的资讯文章，探讨了影片的情节和主题，尤其是跨性别与爱情之间的关系。文章中提到，这部电影以其独特的奇幻元素和冒险情节吸引了大量观众，至今播放量已达到142.9万。文章包含了一些重要的图片，并提供了媒体声明，强调所有作品内容均由用户上传，平台仅提供信息存储空间服务。此外，文章在内容的末尾附上了与影片相关的重要标签，如“跨性别”，“爱情”，“电影”，“奇幻”和“冒险”。",
-      "tags": [
-        "跨性别",
-        "爱情",
-        "电影",
-        "奇幻",
-        "冒险"
-      ],
-      "type": "webpage",
-      "author": "凤凰网",
-      "date": "2019-03-16",
-      "region": "湖北省",
-      "format": "Markdown",
-      "size": 1543,
-      "link": "https://pit.ifeng.com/c/7l5GVOHKEjC"
     },
     {
       "url": "https://news.transchinese.org/凤凰网/sports_跨性别者=异装癖=女装大佬？你误解过的跨性别者们",

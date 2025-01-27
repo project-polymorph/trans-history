@@ -8,7 +8,7 @@
       "domains": [
         "news.transchinese.org"
       ],
-      "fetch_time": "2025-01-21T18:19:50.820632",
+      "fetch_time": "2025-01-27T12:33:13.557144",
       "description": "2012 news from news.transchinese.org",
       "exclude_url_reg": null
     },
@@ -20,7 +20,7 @@
       "domains": [
         "digital.transchinese.org"
       ],
-      "fetch_time": "2025-01-21T18:19:50.925215",
+      "fetch_time": "2025-01-27T12:33:13.612679",
       "description": "2012 magazine articles from digital.transchinese.org",
       "exclude_url_reg": null
     }
@@ -972,24 +972,6 @@
       "format": "Markdown",
       "size": 1503,
       "link": "https://travel.ifeng.com/photo/hd_2012_03/07/13018187_0.shtml"
-    },
-    {
-      "url": "https://news.transchinese.org/凤凰网/yue_性别都是浮云变性人撑起半边天_-_音乐-_凤凰网",
-      "description": "该文件是来自凤凰网的一篇文章，标题为《性别都是浮云：变性人撑起半边天》。文章主要描述了变性人在社会中的位置和角色，探讨了性别身份的流动性与社会认同。文中提到了变性人拳王巴林亚的例子，以及他在泰国影片《美丽拳王》发布会上出现的情况。这不仅展示了变性人在体育界的成就，也反映出他们在媒体与公众视野中的能见度。文章通过讲述变性人的故事，试图打破对性别的传统认知，强调性别并不是一个固定的身份，而是一种可以流动和转变的状态。同时，该文件也包含了一些与变性人相关的标签和源链接，提供了进一步阅读的机会。",
-      "tags": [
-        "变性人",
-        "性别",
-        "变性",
-        "社会认同",
-        "媒体报道"
-      ],
-      "type": "webpage",
-      "author": "未知",
-      "date": "2012-10-03",
-      "region": "未知",
-      "format": "Markdown",
-      "size": 587,
-      "link": "http://yue.ifeng.com/news/detail_2012_10/03/18043902_9.shtml"
     },
     {
       "url": "https://news.transchinese.org/搜狐新闻/m_世界十大最美“变性人”【组图】",

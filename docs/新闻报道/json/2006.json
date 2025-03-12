@@ -8,7 +8,7 @@
       "domains": [
         "news.transchinese.org"
       ],
-      "fetch_time": "2025-03-10T12:35:34.849710",
+      "fetch_time": "2025-03-12T07:13:17.533471",
       "description": "2006 news from news.transchinese.org",
       "exclude_url_reg": null
     },
@@ -20,7 +20,7 @@
       "domains": [
         "digital.transchinese.org"
       ],
-      "fetch_time": "2025-03-10T12:35:34.896752",
+      "fetch_time": "2025-03-12T07:13:17.619238",
       "description": "2006 magazine articles from digital.transchinese.org",
       "exclude_url_reg": null
     }
@@ -2011,6 +2011,26 @@
       "format": "Markdown",
       "size": 3482,
       "link": "https://www.chinanews.com.cn/jk/ysbb/news/2006/11-07/817085.shtml"
+    },
+    {
+      "url": "https://digital.transchinese.org/杂志及新闻报道/中国大陆/变性美眉网上征到心上人_2006年04月21日_page",
+      "description": "该文档是一份刊登于2006年4月21日的杂志与新闻报道PDF，标题为“变性美眉网上征到心上人”。文档内容从排版和文字展示上来看，部分文字可能由于扫描识别或打印传输的原因出现了大量乱码与特殊字符，如反复出现的符号、数字、英文和(cid:xxx)形式的占位标识。",
+      "tags": [
+        "跨性别",
+        "变性",
+        "网络征婚",
+        "新闻报道",
+        "多元性别",
+        "中国大陆",
+        "酷儿"
+      ],
+      "type": "document",
+      "author": "未知",
+      "date": "2006-04-21",
+      "region": "中国大陆",
+      "format": "PDF Document",
+      "size": 636165,
+      "link": "unknown"
     }
   ]
 }

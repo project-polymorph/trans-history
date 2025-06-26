@@ -1,0 +1,76 @@
+name: Deploy Jekyll with GitHub Pages + Generate Weekly Index
+
+on:
+  # 当推送到 main 分支时触发（构建并部署 Jekyll）
+  push:
+    branches: ["main"]
+  # 每周日(0表示周日)的 02:00 UTC 运行一次，用于自动生成 Markdown
+  schedule:
+    - cron: '0 2 * * 0'
+  # 允许从 Actions 手动触发
+  workflow_dispatch:
+
+permissions:
+  contents: write       # 允许提交更新（auto-commit）
+  pages: write          # 部署到 GitHub Pages
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      # 1. 检出仓库代码
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      # 2. 仅在「schedule」或「workflow_dispatch」事件时，自动生成 & 提交 Markdown
+      - name: Generate & commit weekly index
+        if: ${{ github.event_name == 'schedule' || github.event_name == 'workflow_dispatch' }}
+        run: |
+          echo "[INFO] Installing Python dependencies and generating index..."
+          sudo apt-get update
+          sudo apt-get install -y python3-pip
+          pip install requests pyyaml
+
+          # 执行你的脚本，此脚本会将输出写到 output.md
+          make
+
+          # 配置 Git 信息
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          # 提交并添加 [skip ci] 避免循环触发
+          git add .
+          git commit -m "chore: auto-update index [skip ci]" || true
+          git push
+
+      # 3. 设置 Pages（必须步骤）
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      # 4. 使用预装依赖的方式构建 Jekyll
+      - name: Build with Jekyll
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./
+          destination: ./_site
+
+      # 5. 上传构建产物 (artifact)，供后续部署步骤使用
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+
+  deploy:
+    environment:
+      name: github-pages
+      # 注意：需要在下方 steps 里通过 outputs 获取 page_url
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build-and-deploy
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

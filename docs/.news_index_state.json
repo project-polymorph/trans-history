@@ -1,0 +1,221 @@
+{
+  "queries": {
+    "新闻报道/json/historical.json:Historical news from news.transchinese.org": {
+      "last_update": "2025-06-23T12:41:02.006813",
+      "output_path": "新闻报道/json/historical.json"
+    },
+    "新闻报道/json/historical.json:Historical magazine articles from digital.transchinese.org": {
+      "last_update": "2025-06-23T12:41:04.083232",
+      "output_path": "新闻报道/json/historical.json"
+    },
+    "新闻报道/json/2000.json:2000 news from news.transchinese.org": {
+      "last_update": "2025-06-23T12:41:04.160087",
+      "output_path": "新闻报道/json/2000.json"
+    },
+    "新闻报道/json/2000.json:2000 magazine articles from digital.transchinese.org": {
+      "last_update": "2025-06-23T12:41:04.212188",
+      "output_path": "新闻报道/json/2000.json"
+    },
+    "新闻报道/json/2001.json:2001 news from news.transchinese.org": {
+      "last_update": "2025-06-23T12:41:04.266360",
+      "output_path": "新闻报道/json/2001.json"
+    },
+    "新闻报道/json/2001.json:2001 magazine articles from digital.transchinese.org": {
+      "last_update": "2025-06-23T12:41:04.328005",
+      "output_path": "新闻报道/json/2001.json"
+    },
+    "新闻报道/json/2002.json:2002 news from news.transchinese.org": {
+      "last_update": "2025-06-23T12:41:04.385168",
+      "output_path": "新闻报道/json/2002.json"
+    },
+    "新闻报道/json/2002.json:2002 magazine articles from digital.transchinese.org": {
+      "last_update": "2025-06-23T12:41:04.452673",
+      "output_path": "新闻报道/json/2002.json"
+    },
+    "新闻报道/json/2003.json:2003 news from news.transchinese.org": {
+      "last_update": "2025-06-23T12:41:04.512675",
+      "output_path": "新闻报道/json/2003.json"
+    },
+    "新闻报道/json/2003.json:2003 magazine articles from digital.transchinese.org": {
+      "last_update": "2025-06-23T12:41:04.570564",
+      "output_path": "新闻报道/json/2003.json"
+    },
+    "新闻报道/json/2004.json:2004 news from news.transchinese.org": {
+      "last_update": "2025-06-23T12:41:04.675245",
+      "output_path": "新闻报道/json/2004.json"
+    },
+    "新闻报道/json/2004.json:2004 magazine articles from digital.transchinese.org": {
+      "last_update": "2025-06-23T12:41:04.731254",
+      "output_path": "新闻报道/json/2004.json"
+    },
+    "新闻报道/json/2005.json:2005 news from news.transchinese.org": {
+      "last_update": "2025-06-23T12:41:04.802720",
+      "output_path": "新闻报道/json/2005.json"
+    },
+    "新闻报道/json/2005.json:2005 magazine articles from digital.transchinese.org": {
+      "last_update": "2025-06-23T12:41:04.858134",
+      "output_path": "新闻报道/json/2005.json"
+    },
+    "新闻报道/json/2006.json:2006 news from news.transchinese.org": {
+      "last_update": "2025-06-23T12:41:04.928741",
+      "output_path": "新闻报道/json/2006.json"
+    },
+    "新闻报道/json/2006.json:2006 magazine articles from digital.transchinese.org": {
+      "last_update": "2025-06-23T12:41:05.001926",
+      "output_path": "新闻报道/json/2006.json"
+    },
+    "新闻报道/json/2007.json:2007 news from news.transchinese.org": {
+      "last_update": "2025-06-23T12:41:05.070663",
+      "output_path": "新闻报道/json/2007.json"
+    },
+    "新闻报道/json/2007.json:2007 magazine articles from digital.transchinese.org": {
+      "last_update": "2025-06-23T12:41:05.153110",
+      "output_path": "新闻报道/json/2007.json"
+    },
+    "新闻报道/json/2008.json:2008 news from news.transchinese.org": {
+      "last_update": "2025-06-23T12:41:05.213830",
+      "output_path": "新闻报道/json/2008.json"
+    },
+    "新闻报道/json/2008.json:2008 magazine articles from digital.transchinese.org": {
+      "last_update": "2025-06-23T12:41:05.325178",
+      "output_path": "新闻报道/json/2008.json"
+    },
+    "新闻报道/json/2009.json:2009 news from news.transchinese.org": {
+      "last_update": "2025-06-23T12:41:05.423721",
+      "output_path": "新闻报道/json/2009.json"
+    },
+    "新闻报道/json/2009.json:2009 magazine articles from digital.transchinese.org": {
+      "last_update": "2025-06-23T12:41:05.503743",
+      "output_path": "新闻报道/json/2009.json"
+    },
+    "新闻报道/json/2010.json:2010 news from news.transchinese.org": {
+      "last_update": "2025-06-23T12:41:05.578000",
+      "output_path": "新闻报道/json/2010.json"
+    },
+    "新闻报道/json/2010.json:2010 magazine articles from digital.transchinese.org": {
+      "last_update": "2025-06-23T12:41:05.631458",
+      "output_path": "新闻报道/json/2010.json"
+    },
+    "新闻报道/json/2011.json:2011 news from news.transchinese.org": {
+      "last_update": "2025-06-23T12:41:05.738430",
+      "output_path": "新闻报道/json/2011.json"
+    },
+    "新闻报道/json/2011.json:2011 magazine articles from digital.transchinese.org": {
+      "last_update": "2025-06-23T12:41:05.802661",
+      "output_path": "新闻报道/json/2011.json"
+    },
+    "新闻报道/json/2012.json:2012 news from news.transchinese.org": {
+      "last_update": "2025-06-23T12:41:05.877843",
+      "output_path": "新闻报道/json/2012.json"
+    },
+    "新闻报道/json/2012.json:2012 magazine articles from digital.transchinese.org": {
+      "last_update": "2025-06-23T12:41:05.944089",
+      "output_path": "新闻报道/json/2012.json"
+    },
+    "新闻报道/json/2013.json:2013 news from news.transchinese.org": {
+      "last_update": "2025-06-23T12:41:06.021048",
+      "output_path": "新闻报道/json/2013.json"
+    },
+    "新闻报道/json/2013.json:2013 magazine articles from digital.transchinese.org": {
+      "last_update": "2025-06-23T12:41:06.086346",
+      "output_path": "新闻报道/json/2013.json"
+    },
+    "新闻报道/json/2014.json:2014 news from news.transchinese.org": {
+      "last_update": "2025-06-23T12:41:06.149545",
+      "output_path": "新闻报道/json/2014.json"
+    },
+    "新闻报道/json/2014.json:2014 magazine articles from digital.transchinese.org": {
+      "last_update": "2025-06-23T12:41:06.225015",
+      "output_path": "新闻报道/json/2014.json"
+    },
+    "新闻报道/json/2015.json:2015 news from news.transchinese.org": {
+      "last_update": "2025-06-23T12:41:06.306185",
+      "output_path": "新闻报道/json/2015.json"
+    },
+    "新闻报道/json/2015.json:2015 magazine articles from digital.transchinese.org": {
+      "last_update": "2025-06-23T12:41:06.366025",
+      "output_path": "新闻报道/json/2015.json"
+    },
+    "新闻报道/json/2016.json:2016 news from news.transchinese.org": {
+      "last_update": "2025-06-23T12:41:06.439937",
+      "output_path": "新闻报道/json/2016.json"
+    },
+    "新闻报道/json/2016.json:2016 magazine articles from digital.transchinese.org": {
+      "last_update": "2025-06-23T12:41:06.493388",
+      "output_path": "新闻报道/json/2016.json"
+    },
+    "新闻报道/json/2017.json:2017 news from news.transchinese.org": {
+      "last_update": "2025-06-23T12:41:06.566481",
+      "output_path": "新闻报道/json/2017.json"
+    },
+    "新闻报道/json/2017.json:2017 magazine articles from digital.transchinese.org": {
+      "last_update": "2025-06-23T12:41:06.617334",
+      "output_path": "新闻报道/json/2017.json"
+    },
+    "新闻报道/json/2018.json:2018 news from news.transchinese.org": {
+      "last_update": "2025-06-23T12:41:06.692243",
+      "output_path": "新闻报道/json/2018.json"
+    },
+    "新闻报道/json/2018.json:2018 magazine articles from digital.transchinese.org": {
+      "last_update": "2025-06-23T12:41:06.750701",
+      "output_path": "新闻报道/json/2018.json"
+    },
+    "新闻报道/json/2019.json:2019 news from news.transchinese.org": {
+      "last_update": "2025-06-23T12:41:06.825597",
+      "output_path": "新闻报道/json/2019.json"
+    },
+    "新闻报道/json/2019.json:2019 magazine articles from digital.transchinese.org": {
+      "last_update": "2025-06-23T12:41:06.876732",
+      "output_path": "新闻报道/json/2019.json"
+    },
+    "新闻报道/json/2020.json:2020 news from news.transchinese.org": {
+      "last_update": "2025-06-23T12:41:06.954262",
+      "output_path": "新闻报道/json/2020.json"
+    },
+    "新闻报道/json/2020.json:2020 magazine articles from digital.transchinese.org": {
+      "last_update": "2025-06-23T12:41:07.008722",
+      "output_path": "新闻报道/json/2020.json"
+    },
+    "新闻报道/json/2021.json:2021 news from news.transchinese.org": {
+      "last_update": "2025-06-23T12:41:07.084984",
+      "output_path": "新闻报道/json/2021.json"
+    },
+    "新闻报道/json/2021.json:2021 magazine articles from digital.transchinese.org": {
+      "last_update": "2025-06-23T12:41:07.163762",
+      "output_path": "新闻报道/json/2021.json"
+    },
+    "新闻报道/json/2022.json:2022 news from news.transchinese.org": {
+      "last_update": "2025-06-23T12:41:07.237555",
+      "output_path": "新闻报道/json/2022.json"
+    },
+    "新闻报道/json/2022.json:2022 magazine articles from digital.transchinese.org": {
+      "last_update": "2025-06-23T12:41:07.294394",
+      "output_path": "新闻报道/json/2022.json"
+    },
+    "新闻报道/json/2023.json:2023 news from news.transchinese.org": {
+      "last_update": "2025-06-23T12:41:07.382109",
+      "output_path": "新闻报道/json/2023.json"
+    },
+    "新闻报道/json/2023.json:2023 magazine articles from digital.transchinese.org": {
+      "last_update": "2025-06-23T12:41:07.438061",
+      "output_path": "新闻报道/json/2023.json"
+    },
+    "新闻报道/json/2024.json:2024 news from news.transchinese.org": {
+      "last_update": "2025-06-23T12:41:07.549166",
+      "output_path": "新闻报道/json/2024.json"
+    },
+    "新闻报道/json/2024.json:2024 magazine articles from digital.transchinese.org": {
+      "last_update": "2025-06-23T12:41:07.601535",
+      "output_path": "新闻报道/json/2024.json"
+    },
+    "新闻报道/json/2025.json:2025 news from news.transchinese.org": {
+      "last_update": "2025-06-23T12:41:07.686917",
+      "output_path": "新闻报道/json/2025.json"
+    },
+    "新闻报道/json/2025.json:2025 magazine articles from digital.transchinese.org": {
+      "last_update": "2025-06-23T12:41:07.741045",
+      "output_path": "新闻报道/json/2025.json"
+    }
+  },
+  "last_update": "2025-06-23T12:41:07.742494"
+}

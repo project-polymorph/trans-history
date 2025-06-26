@@ -1,0 +1,66 @@
+{
+  "metadata": [
+    {
+      "query_term": "",
+      "years": [
+        "2000"
+      ],
+      "domains": [
+        "news.transchinese.org"
+      ],
+      "fetch_time": "2025-06-23T12:41:04.160077",
+      "description": "2000 news from news.transchinese.org",
+      "exclude_url_reg": null
+    },
+    {
+      "query_term": "杂志及新闻报道",
+      "years": [
+        "2000"
+      ],
+      "domains": [
+        "digital.transchinese.org"
+      ],
+      "fetch_time": "2025-06-23T12:41:04.212178",
+      "description": "2000 magazine articles from digital.transchinese.org",
+      "exclude_url_reg": null
+    }
+  ],
+  "items": [
+    {
+      "url": "https://news.transchinese.org/新浪新闻/interface_肖乾冬变性相关报道_手机新浪网",
+      "description": "该文件记录了跨性别者肖乾冬的亲身经历与变性故事，详细讲述了她从男性转变为女性的心理与情感历程以及社会接纳的过程。肖乾冬出生于四川西充县，一个偏僻的农村，从小便感到性别认同上的困惑。在与男性同寝室时，她对自己性别的怀疑愈发明显。最终，她选择进行变性手术，给了自己一个全新的身份和生活。整个过程中，她经历了心理上的痛苦与挣扎，并在亲朋好友的支持下成功完成手术，感到无比的喜悦和解脱。文件中还提到社会对变性人的理解与支持，以及社会心理学专业人士对变性现象的看法，强调了社会应给予变性人应有的理解与法律保护。最终，肖乾冬渴望能真正生活成她想要的女性。",
+      "tags": [
+        "跨性别",
+        "变性人",
+        "性别认同",
+        "接纳支持"
+      ],
+      "type": "webpage",
+      "author": "未知",
+      "date": "2000-04-12",
+      "region": "中国大陆",
+      "format": "Markdown",
+      "size": 7881,
+      "link": "https://interface.sina.cn/pc_to_wap.d.html?ref=http%3A%2F%2Fnews.sina.com.cn%2Fsociety%2F2000-4-21%2F83543.html"
+    },
+    {
+      "url": "https://news.transchinese.org/新浪新闻/news_泰国“2000年蒂芬尼小姐”人妖选美结束_-_新浪新闻",
+      "description": "本文件主要报道了泰国2000年举行的“蒂芬尼小姐”人妖选美大赛。这是一项专为变性人和跨性别女性设立的选美赛事，虽然参赛者多数为变性女性，但也包含了扮作女性的男性。本届选美的冠军是来自泰国的二十岁变性人参雅-莫兰亚，获得了当地的关注和赞誉。然而，尽管她赢得了奖金却不被允许参加全球的人妖小姐选美，因为该比赛只接纳未动手术的男性参赛者。文件内容包括了比赛的规则、过程，以及对参赛者的描述，显示了变性人在社会中的复杂处境和面临的挑战，同时也反映出泰国独特的文化现象。",
+      "tags": [
+        "跨性别",
+        "人妖",
+        "选美",
+        "泰国文化",
+        "变性人",
+        "性别认同"
+      ],
+      "type": "webpage",
+      "author": "中新社",
+      "date": "2000-05-22",
+      "region": "泰国",
+      "format": "Markdown",
+      "size": 1590,
+      "link": "https://news.sina.com.cn/society/2000-05-22/91443.html"
+    }
+  ]
+}

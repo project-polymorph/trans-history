@@ -1,0 +1,79 @@
+site_name: 跨性别华语编年录
+repo_url: https://github.com/project-polymorph/trans-history
+edit_url: https://github.com/project-polymorph/trans-history/edit/main/docs/
+site_url: https://project-polymorph.github.io/trans-history/
+site_description: '跨性别华语编年录旨在以时间脉络为核心，系统整理与展示华语世界与跨性别议题相关的新闻报道、个人访谈、学术观点及社会回响。该项目聚焦于不同时期跨性别者所面临的社会文化环境、医疗条件和法律政策等要素，并兼具历史文献价值与现实关怀意义。'
+site_author: 性别多态图书馆
+copyright: '性别多态图书馆 2025'
+theme:
+  name: material
+  custom_dir: overrides
+  features:
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.action.edit
+    - navigation.footer
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.prune
+    - navigation.path
+    - navigation.top
+    - navigation.prune 
+    - navigation.indexes 
+    - navigation.tracking
+  palette:
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default 
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+  language: zh
+plugins:
+  - search
+  - social:
+      cards_layout_options:
+        font_family: Noto Sans SC
+  - rss:
+      match_path: ".*"
+      date_from_meta:
+        as_creation: date.created
+        as_update: date.updated
+  - git-authors
+  - git-revision-date-localized:
+      enable_creation_date: true
+extra:
+  analytics:
+    provider: google
+    property: G-NLEYWPXZ47
+  social:
+  - icon: /fontawesome/regular/envelope
+    name: send me an email
+    link: mailto:admin@transchinese.org
+  - icon: fontawesome/brands/x-twitter
+    link: https://x.com/transchineseorg
+  extra:
+    homepage: https://transchinese.org
+hooks:
+  - hooks/socialmedia.py
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg

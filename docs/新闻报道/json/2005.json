@@ -8,7 +8,7 @@
       "domains": [
         "news.transchinese.org"
       ],
-      "fetch_time": "2025-07-28T12:39:04.369809",
+      "fetch_time": "2025-08-04T12:40:58.417006",
       "description": "2005 news from news.transchinese.org",
       "exclude_url_reg": null
     },
@@ -20,7 +20,7 @@
       "domains": [
         "digital.transchinese.org"
       ],
-      "fetch_time": "2025-07-28T12:39:04.455353",
+      "fetch_time": "2025-08-04T12:40:58.498786",
       "description": "2005 magazine articles from digital.transchinese.org",
       "exclude_url_reg": null
     }

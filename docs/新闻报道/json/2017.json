@@ -8,7 +8,7 @@
       "domains": [
         "news.transchinese.org"
       ],
-      "fetch_time": "2025-08-04T12:41:00.858727",
+      "fetch_time": "2025-08-11T12:37:56.310764",
       "description": "2017 news from news.transchinese.org",
       "exclude_url_reg": null
     },
@@ -20,7 +20,7 @@
       "domains": [
         "digital.transchinese.org"
       ],
-      "fetch_time": "2025-08-04T12:41:00.948175",
+      "fetch_time": "2025-08-11T12:37:56.425779",
       "description": "2017 magazine articles from digital.transchinese.org",
       "exclude_url_reg": null
     }
@@ -3943,6 +3943,25 @@
       "link": "https://www.chinanews.com.cn/hr/2017/07-27/8288819.shtml"
     },
     {
+      "url": "https://digital.transchinese.org/杂志及新闻报道/海外/2017上海骄傲电影节观影指南_page",
+      "description": "这份文件是关于2017年上海骄傲电影节的观影指南，旨在为观众提供电影节期间放映的各类影片的详细信息和推荐。文件中列出了来自不同国家和地区的多元性别、跨性别和酷儿相关影片，突出了电影的主题、导演及主演，以及影片所传递的信息和社会背景。指南还提供了观影的地点、时间安排、购票方式及相关活动的信息，以便观众充分了解电影节的安排，参与到这场文化盛宴中。该guide特别强调了对多元性别群体的支持，并提倡对跨性别与酷儿文化的理解与接受。",
+      "tags": [
+        "跨性别",
+        "酷儿文化",
+        "电影节",
+        "文化活动",
+        "上海",
+        "观影指南"
+      ],
+      "type": "document",
+      "author": "上海骄傲电影节组委会",
+      "date": "2017-08-01",
+      "region": "中国大陆",
+      "format": "PDF Document",
+      "size": 14481357,
+      "link": "https://www.shpride.com/wp-content/uploads/2017/06/ShPFF-Booklet.pdf"
+    },
+    {
       "url": "https://digital.transchinese.org/杂志及新闻报道/中国大陆/2017中国跨性别群体生存现状调查报告发布_北京同志中心_page",
       "description": "《2017中国跨性别群体生存现状调查报告》由北京同志中心与北京大学社会学系共同发起，旨在研究中国跨性别群体的生存状况，探讨跨性别者在社会生活中所遭遇的各种困难与挑战。报告于2017年11月20日在荷兰驻华使馆公开发布，恰逢国际跨性别日，现场有众多跨性别人士及相关机构参与，发表了对这一议题的看法与建议。报告涉及跨性别者的基本信息、性别认同、医疗环境、家庭与学校环境、社会歧视、心理健康与服务等多个方面的调研结果，统计显示，多数跨性别者面临抑郁、焦虑以及自杀的困扰，显示出极为严峻的生存现状。此项调研不仅具有重要的学术研究价值，更是跨性别群体向社会发声的体现，试图打破对于跨性别群体的误解与偏见。",
       "tags": [
@@ -3962,25 +3981,6 @@
       "format": "PDF Document",
       "size": 776338,
       "link": "https://motss.cc/archives/wechat/pdf/%E9%85%B7%E5%84%BF%E8%AE%BA%E5%9D%9B_2017-11-21_%E4%B8%AD%E5%9B%BD%E8%B7%A8%E6%80%A7%E5%88%AB%E7%BE%A4%E4%BD%93%E7%94%9F%E5%AD%98%E7%8E%B0%E7%8A%B6%E8%B0%83%E6%9F%A5%E6%8A%A5%E5%91%8A%E5%9C%86%E6%BB%A1%E5%8F%91%E5%B8%83.pdf"
-    },
-    {
-      "url": "https://digital.transchinese.org/杂志及新闻报道/海外/2017上海骄傲电影节观影指南_page",
-      "description": "这份文件是关于2017年上海骄傲电影节的观影指南，旨在为观众提供电影节期间放映的各类影片的详细信息和推荐。文件中列出了来自不同国家和地区的多元性别、跨性别和酷儿相关影片，突出了电影的主题、导演及主演，以及影片所传递的信息和社会背景。指南还提供了观影的地点、时间安排、购票方式及相关活动的信息，以便观众充分了解电影节的安排，参与到这场文化盛宴中。该guide特别强调了对多元性别群体的支持，并提倡对跨性别与酷儿文化的理解与接受。",
-      "tags": [
-        "跨性别",
-        "酷儿文化",
-        "电影节",
-        "文化活动",
-        "上海",
-        "观影指南"
-      ],
-      "type": "document",
-      "author": "上海骄傲电影节组委会",
-      "date": "2017-08-01",
-      "region": "中国大陆",
-      "format": "PDF Document",
-      "size": 14481357,
-      "link": "https://www.shpride.com/wp-content/uploads/2017/06/ShPFF-Booklet.pdf"
     },
     {
       "url": "https://digital.transchinese.org/杂志及新闻报道/港澳台/住錯性別身體的靈魂-人權全紀錄_page",

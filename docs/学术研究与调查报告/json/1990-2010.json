@@ -28,7 +28,7 @@
       "domains": [
         "digital.transchinese.org"
       ],
-      "fetch_time": "2025-08-11T12:38:01.685719",
+      "fetch_time": "2025-08-18T12:36:58.476967",
       "description": "Historical magazine articles from digital.transchinese.org",
       "exclude_url_reg": null
     },
@@ -60,7 +60,7 @@
       "domains": [
         "digital.transchinese.org"
       ],
-      "fetch_time": "2025-08-11T12:38:04.545010",
+      "fetch_time": "2025-08-18T12:37:00.553386",
       "description": "2011-2025 digital from digital.transchinese.org",
       "exclude_url_reg": null
     }

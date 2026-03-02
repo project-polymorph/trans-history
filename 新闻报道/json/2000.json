@@ -1,0 +1,29 @@
+{
+  "metadata": [
+    {
+      "query_term": "",
+      "years": [
+        "2000"
+      ],
+      "domains": [
+        "news.transchinese.org"
+      ],
+      "fetch_time": "2026-03-02T12:52:36.284277",
+      "description": "2000 news from news.transchinese.org",
+      "exclude_url_reg": null
+    },
+    {
+      "query_term": "杂志及新闻报道",
+      "years": [
+        "2000"
+      ],
+      "domains": [
+        "digital.transchinese.org"
+      ],
+      "fetch_time": "2026-03-02T12:52:36.372255",
+      "description": "2000 magazine articles from digital.transchinese.org",
+      "exclude_url_reg": null
+    }
+  ],
+  "items": []
+}

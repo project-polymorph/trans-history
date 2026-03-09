@@ -1,0 +1,47 @@
+{
+  "metadata": [
+    {
+      "query_term": "社群及NGO文件/统计报告",
+      "years": [
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020"
+      ],
+      "domains": [
+        "digital.transchinese.org"
+      ],
+      "fetch_time": "2026-03-09T12:56:34.881906",
+      "description": "2011-2020 digital from digital.transchinese.org",
+      "exclude_url_reg": null
+    },
+    {
+      "query_term": "学术文献",
+      "years": [
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020"
+      ],
+      "domains": [
+        "digital.transchinese.org"
+      ],
+      "fetch_time": "2026-03-09T12:56:35.814930",
+      "description": "2011-2020 magazine articles from digital.transchinese.org",
+      "exclude_url_reg": null
+    }
+  ],
+  "items": []
+}

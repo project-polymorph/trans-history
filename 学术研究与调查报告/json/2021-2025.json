@@ -1,0 +1,37 @@
+{
+  "metadata": [
+    {
+      "query_term": "社群及NGO文件/统计报告",
+      "years": [
+        "2021",
+        "2022",
+        "2023",
+        "2024",
+        "2025"
+      ],
+      "domains": [
+        "digital.transchinese.org"
+      ],
+      "fetch_time": "2026-05-04T13:51:25.378843",
+      "description": "2021-2025 digital from digital.transchinese.org",
+      "exclude_url_reg": null
+    },
+    {
+      "query_term": "学术文献",
+      "years": [
+        "2021",
+        "2022",
+        "2023",
+        "2024",
+        "2025"
+      ],
+      "domains": [
+        "digital.transchinese.org"
+      ],
+      "fetch_time": "2026-05-04T13:51:25.752560",
+      "description": "2021-2025 magazine articles from digital.transchinese.org",
+      "exclude_url_reg": null
+    }
+  ],
+  "items": []
+}

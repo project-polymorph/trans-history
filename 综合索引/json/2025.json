@@ -1,0 +1,65 @@
+{
+  "metadata": [
+    {
+      "query_term": "",
+      "years": [
+        "2025"
+      ],
+      "domains": [
+        "news.transchinese.org"
+      ],
+      "fetch_time": "2025-01-20T21:50:40.028384",
+      "description": "2025 news from news.transchinese.org",
+      "exclude_url_reg": null
+    },
+    {
+      "query_term": "杂志及新闻报道",
+      "years": [
+        "2025"
+      ],
+      "domains": [
+        "digital.transchinese.org"
+      ],
+      "fetch_time": "2025-01-20T21:50:40.129194",
+      "description": "2025 magazine articles from digital.transchinese.org",
+      "exclude_url_reg": null
+    },
+    {
+      "query_term": "学术文献",
+      "years": [
+        "2025"
+      ],
+      "domains": [
+        "digital.transchinese.org"
+      ],
+      "fetch_time": "2025-01-20T21:50:40.226979",
+      "description": "2025 academic literature from digital.transchinese.org",
+      "exclude_url_reg": null
+    },
+    {
+      "query_term": "政府及官方组织文件/中国大陆",
+      "years": [
+        "2025"
+      ],
+      "domains": [
+        "digital.transchinese.org"
+      ],
+      "fetch_time": "2025-01-20T21:50:40.331816",
+      "description": "2025 government documents from digital.transchinese.org",
+      "exclude_url_reg": ".*中国大陆/其他文件.*|.*中国大陆/原文.*"
+    },
+    {
+      "query_term": "社群及NGO文件/统计报告",
+      "years": [
+        "2025"
+      ],
+      "domains": [
+        "digital.transchinese.org"
+      ],
+      "fetch_time": "2025-01-20T21:50:40.434321",
+      "description": "2025 NGO reports from digital.transchinese.org",
+      "exclude_url_reg": null
+    }
+  ],
+  "items": []
+}

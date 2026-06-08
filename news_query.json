@@ -1,0 +1,570 @@
+{
+  "targets": [
+    {
+      "output_json": "新闻报道/json/historical.json",
+      "output_markdown": "新闻报道/1980-1999.md",
+      "template_path": "../templates/新闻索引.template.md",
+      "include_description": true,
+      "queries": [
+        {
+          "description": "Historical news from news.transchinese.org",
+          "years": ["1980", "1981", "1982", "1983", "1984", "1985", "1986", "1987", "1988", "1989", "1990", "1991", "1992", "1993", "1994", "1995", "1996", "1997", "1998", "1999"],
+          "domains": ["news.transchinese.org"],
+          "update_interval_hours": 24
+        },
+        {
+          "description": "Historical magazine articles from digital.transchinese.org",
+          "years": ["1980", "1981", "1982", "1983", "1984", "1985", "1986", "1987", "1988", "1989", "1990", "1991", "1992", "1993", "1994", "1995", "1996", "1997", "1998", "1999"],
+          "domains": ["digital.transchinese.org"],
+          "term": "杂志及新闻报道",
+          "update_interval_hours": 24
+        }
+      ]
+    },
+    {
+      "output_json": "新闻报道/json/2000.json",
+      "output_markdown": "新闻报道/2000.md",
+      "template_path": "../templates/新闻索引.template.md",
+      "include_description": true,
+      "queries": [
+        {
+          "description": "2000 news from news.transchinese.org",
+          "years": ["2000"],
+          "domains": ["news.transchinese.org"],
+          "update_interval_hours": 24
+        },
+        {
+          "description": "2000 magazine articles from digital.transchinese.org",
+          "years": ["2000"],
+          "domains": ["digital.transchinese.org"],
+          "term": "杂志及新闻报道",
+          "update_interval_hours": 24
+        }
+      ]
+    },
+    {
+      "output_json": "新闻报道/json/2001.json",
+      "output_markdown": "新闻报道/2001.md",
+      "template_path": "../templates/新闻索引.template.md",
+      "include_description": true,
+      "queries": [
+        {
+          "description": "2001 news from news.transchinese.org",
+          "years": ["2001"],
+          "domains": ["news.transchinese.org"],
+          "update_interval_hours": 24
+        },
+        {
+          "description": "2001 magazine articles from digital.transchinese.org",
+          "years": ["2001"],
+          "domains": ["digital.transchinese.org"],
+          "term": "杂志及新闻报道",
+          "update_interval_hours": 24
+        }
+      ]
+    },
+    {
+      "output_json": "新闻报道/json/2002.json",
+      "output_markdown": "新闻报道/2002.md",
+      "template_path": "../templates/新闻索引.template.md",
+      "include_description": true,
+      "queries": [
+        {
+          "description": "2002 news from news.transchinese.org",
+          "years": ["2002"],
+          "domains": ["news.transchinese.org"],
+          "update_interval_hours": 24
+        },
+        {
+          "description": "2002 magazine articles from digital.transchinese.org",
+          "years": ["2002"],
+          "domains": ["digital.transchinese.org"],
+          "term": "杂志及新闻报道",
+          "update_interval_hours": 24
+        }
+      ]
+    },
+    {
+      "output_json": "新闻报道/json/2003.json",
+      "output_markdown": "新闻报道/2003.md",
+      "template_path": "../templates/新闻索引.template.md",
+      "include_description": true,
+      "queries": [
+        {
+          "description": "2003 news from news.transchinese.org",
+          "years": ["2003"],
+          "domains": ["news.transchinese.org"],
+          "update_interval_hours": 24
+        },
+        {
+          "description": "2003 magazine articles from digital.transchinese.org",
+          "years": ["2003"],
+          "domains": ["digital.transchinese.org"],
+          "term": "杂志及新闻报道",
+          "update_interval_hours": 24
+        }
+      ]
+    },
+    {
+      "output_json": "新闻报道/json/2004.json",
+      "output_markdown": "新闻报道/2004.md",
+      "template_path": "../templates/新闻索引.template.md",
+      "include_description": true,
+      "queries": [
+        {
+          "description": "2004 news from news.transchinese.org",
+          "years": ["2004"],
+          "domains": ["news.transchinese.org"],
+          "update_interval_hours": 24
+        },
+        {
+          "description": "2004 magazine articles from digital.transchinese.org",
+          "years": ["2004"],
+          "domains": ["digital.transchinese.org"],
+          "term": "杂志及新闻报道",
+          "update_interval_hours": 24
+        }
+      ]
+    },
+    {
+      "output_json": "新闻报道/json/2005.json",
+      "output_markdown": "新闻报道/2005.md",
+      "template_path": "../templates/新闻索引.template.md",
+      "include_description": true,
+      "queries": [
+        {
+          "description": "2005 news from news.transchinese.org",
+          "years": ["2005"],
+          "domains": ["news.transchinese.org"],
+          "update_interval_hours": 24
+        },
+        {
+          "description": "2005 magazine articles from digital.transchinese.org",
+          "years": ["2005"],
+          "domains": ["digital.transchinese.org"],
+          "term": "杂志及新闻报道",
+          "update_interval_hours": 24
+        }
+      ]
+    },
+    {
+      "output_json": "新闻报道/json/2006.json",
+      "output_markdown": "新闻报道/2006.md",
+      "template_path": "../templates/新闻索引.template.md",
+      "include_description": true,
+      "queries": [
+        {
+          "description": "2006 news from news.transchinese.org",
+          "years": ["2006"],
+          "domains": ["news.transchinese.org"],
+          "update_interval_hours": 24
+        },
+        {
+          "description": "2006 magazine articles from digital.transchinese.org",
+          "years": ["2006"],
+          "domains": ["digital.transchinese.org"],
+          "term": "杂志及新闻报道",
+          "update_interval_hours": 24
+        }
+      ]
+    },
+    {
+      "output_json": "新闻报道/json/2007.json",
+      "output_markdown": "新闻报道/2007.md",
+      "template_path": "../templates/新闻索引.template.md",
+      "include_description": true,
+      "queries": [
+        {
+          "description": "2007 news from news.transchinese.org",
+          "years": ["2007"],
+          "domains": ["news.transchinese.org"],
+          "update_interval_hours": 24
+        },
+        {
+          "description": "2007 magazine articles from digital.transchinese.org",
+          "years": ["2007"],
+          "domains": ["digital.transchinese.org"],
+          "term": "杂志及新闻报道",
+          "update_interval_hours": 24
+        }
+      ]
+    },
+    {
+      "output_json": "新闻报道/json/2008.json",
+      "output_markdown": "新闻报道/2008.md",
+      "template_path": "../templates/新闻索引.template.md",
+      "include_description": true,
+      "queries": [
+        {
+          "description": "2008 news from news.transchinese.org",
+          "years": ["2008"],
+          "domains": ["news.transchinese.org"],
+          "update_interval_hours": 24
+        },
+        {
+          "description": "2008 magazine articles from digital.transchinese.org",
+          "years": ["2008"],
+          "domains": ["digital.transchinese.org"],
+          "term": "杂志及新闻报道",
+          "update_interval_hours": 24
+        }
+      ]
+    },
+    {
+      "output_json": "新闻报道/json/2009.json",
+      "output_markdown": "新闻报道/2009.md",
+      "template_path": "../templates/新闻索引.template.md",
+      "include_description": true,
+      "queries": [
+        {
+          "description": "2009 news from news.transchinese.org",
+          "years": ["2009"],
+          "domains": ["news.transchinese.org"],
+          "update_interval_hours": 24
+        },
+        {
+          "description": "2009 magazine articles from digital.transchinese.org",
+          "years": ["2009"],
+          "domains": ["digital.transchinese.org"],
+          "term": "杂志及新闻报道",
+          "update_interval_hours": 24
+        }
+      ]
+    },
+    {
+      "output_json": "新闻报道/json/2010.json",
+      "output_markdown": "新闻报道/2010.md",
+      "template_path": "../templates/新闻索引.template.md",
+      "include_description": true,
+      "queries": [
+        {
+          "description": "2010 news from news.transchinese.org",
+          "years": ["2010"],
+          "domains": ["news.transchinese.org"],
+          "update_interval_hours": 24
+        },
+        {
+          "description": "2010 magazine articles from digital.transchinese.org",
+          "years": ["2010"],
+          "domains": ["digital.transchinese.org"],
+          "term": "杂志及新闻报道",
+          "update_interval_hours": 24
+        }
+      ]
+    },
+    {
+      "output_json": "新闻报道/json/2011.json",
+      "output_markdown": "新闻报道/2011.md",
+      "template_path": "../templates/新闻索引.template.md",
+      "include_description": true,
+      "queries": [
+        {
+          "description": "2011 news from news.transchinese.org",
+          "years": ["2011"],
+          "domains": ["news.transchinese.org"],
+          "update_interval_hours": 24
+        },
+        {
+          "description": "2011 magazine articles from digital.transchinese.org",
+          "years": ["2011"],
+          "domains": ["digital.transchinese.org"],
+          "term": "杂志及新闻报道",
+          "update_interval_hours": 24
+        }
+      ]
+    },
+    {
+      "output_json": "新闻报道/json/2012.json",
+      "output_markdown": "新闻报道/2012.md",
+      "template_path": "../templates/新闻索引.template.md",
+      "include_description": true,
+      "queries": [
+        {
+          "description": "2012 news from news.transchinese.org",
+          "years": ["2012"],
+          "domains": ["news.transchinese.org"],
+          "update_interval_hours": 24
+        },
+        {
+          "description": "2012 magazine articles from digital.transchinese.org",
+          "years": ["2012"],
+          "domains": ["digital.transchinese.org"],
+          "term": "杂志及新闻报道",
+          "update_interval_hours": 24
+        }
+      ]
+    },
+    {
+      "output_json": "新闻报道/json/2013.json",
+      "output_markdown": "新闻报道/2013.md",
+      "template_path": "../templates/新闻索引.template.md",
+      "include_description": true,
+      "queries": [
+        {
+          "description": "2013 news from news.transchinese.org",
+          "years": ["2013"],
+          "domains": ["news.transchinese.org"],
+          "update_interval_hours": 24
+        },
+        {
+          "description": "2013 magazine articles from digital.transchinese.org",
+          "years": ["2013"],
+          "domains": ["digital.transchinese.org"],
+          "term": "杂志及新闻报道",
+          "update_interval_hours": 24
+        }
+      ]
+    },
+    {
+      "output_json": "新闻报道/json/2014.json",
+      "output_markdown": "新闻报道/2014.md",
+      "template_path": "../templates/新闻索引.template.md",
+      "include_description": true,
+      "queries": [
+        {
+          "description": "2014 news from news.transchinese.org",
+          "years": ["2014"],
+          "domains": ["news.transchinese.org"],
+          "update_interval_hours": 24
+        },
+        {
+          "description": "2014 magazine articles from digital.transchinese.org",
+          "years": ["2014"],
+          "domains": ["digital.transchinese.org"],
+          "term": "杂志及新闻报道",
+          "update_interval_hours": 24
+        }
+      ]
+    },
+    {
+      "output_json": "新闻报道/json/2015.json",
+      "output_markdown": "新闻报道/2015.md",
+      "template_path": "../templates/新闻索引.template.md",
+      "include_description": true,
+      "queries": [
+        {
+          "description": "2015 news from news.transchinese.org",
+          "years": ["2015"],
+          "domains": ["news.transchinese.org"],
+          "update_interval_hours": 24
+        },
+        {
+          "description": "2015 magazine articles from digital.transchinese.org",
+          "years": ["2015"],
+          "domains": ["digital.transchinese.org"],
+          "term": "杂志及新闻报道",
+          "update_interval_hours": 24
+        }
+      ]
+    },
+    {
+      "output_json": "新闻报道/json/2016.json",
+      "output_markdown": "新闻报道/2016.md",
+      "template_path": "../templates/新闻索引.template.md",
+      "include_description": true,
+      "queries": [
+        {
+          "description": "2016 news from news.transchinese.org",
+          "years": ["2016"],
+          "domains": ["news.transchinese.org"],
+          "update_interval_hours": 24
+        },
+        {
+          "description": "2016 magazine articles from digital.transchinese.org",
+          "years": ["2016"],
+          "domains": ["digital.transchinese.org"],
+          "term": "杂志及新闻报道",
+          "update_interval_hours": 24
+        }
+      ]
+    },
+    {
+      "output_json": "新闻报道/json/2017.json",
+      "output_markdown": "新闻报道/2017.md",
+      "template_path": "../templates/新闻索引.template.md",
+      "include_description": true,
+      "queries": [
+        {
+          "description": "2017 news from news.transchinese.org",
+          "years": ["2017"],
+          "domains": ["news.transchinese.org"],
+          "update_interval_hours": 24
+        },
+        {
+          "description": "2017 magazine articles from digital.transchinese.org",
+          "years": ["2017"],
+          "domains": ["digital.transchinese.org"],
+          "term": "杂志及新闻报道",
+          "update_interval_hours": 24
+        }
+      ]
+    },
+    {
+      "output_json": "新闻报道/json/2018.json",
+      "output_markdown": "新闻报道/2018.md",
+      "template_path": "../templates/新闻索引.template.md",
+      "include_description": true,
+      "queries": [
+        {
+          "description": "2018 news from news.transchinese.org",
+          "years": ["2018"],
+          "domains": ["news.transchinese.org"],
+          "update_interval_hours": 24
+        },
+        {
+          "description": "2018 magazine articles from digital.transchinese.org",
+          "years": ["2018"],
+          "domains": ["digital.transchinese.org"],
+          "term": "杂志及新闻报道",
+          "update_interval_hours": 24
+        }
+      ]
+    },
+    {
+      "output_json": "新闻报道/json/2019.json",
+      "output_markdown": "新闻报道/2019.md",
+      "template_path": "../templates/新闻索引.template.md",
+      "include_description": true,
+      "queries": [
+        {
+          "description": "2019 news from news.transchinese.org",
+          "years": ["2019"],
+          "domains": ["news.transchinese.org"],
+          "update_interval_hours": 24
+        },
+        {
+          "description": "2019 magazine articles from digital.transchinese.org",
+          "years": ["2019"],
+          "domains": ["digital.transchinese.org"],
+          "term": "杂志及新闻报道",
+          "update_interval_hours": 24
+        }
+      ]
+    },
+    {
+      "output_json": "新闻报道/json/2020.json",
+      "output_markdown": "新闻报道/2020.md",
+      "template_path": "../templates/新闻索引.template.md",
+      "include_description": true,
+      "queries": [
+        {
+          "description": "2020 news from news.transchinese.org",
+          "years": ["2020"],
+          "domains": ["news.transchinese.org"],
+          "update_interval_hours": 24
+        },
+        {
+          "description": "2020 magazine articles from digital.transchinese.org",
+          "years": ["2020"],
+          "domains": ["digital.transchinese.org"],
+          "term": "杂志及新闻报道",
+          "update_interval_hours": 24
+        }
+      ]
+    },
+    {
+      "output_json": "新闻报道/json/2021.json",
+      "output_markdown": "新闻报道/2021.md",
+      "template_path": "../templates/新闻索引.template.md",
+      "include_description": true,
+      "queries": [
+        {
+          "description": "2021 news from news.transchinese.org",
+          "years": ["2021"],
+          "domains": ["news.transchinese.org"],
+          "update_interval_hours": 24
+        },
+        {
+          "description": "2021 magazine articles from digital.transchinese.org",
+          "years": ["2021"],
+          "domains": ["digital.transchinese.org"],
+          "term": "杂志及新闻报道",
+          "update_interval_hours": 24
+        }
+      ]
+    },
+    {
+      "output_json": "新闻报道/json/2022.json",
+      "output_markdown": "新闻报道/2022.md",
+      "template_path": "../templates/新闻索引.template.md",
+      "include_description": true,
+      "queries": [
+        {
+          "description": "2022 news from news.transchinese.org",
+          "years": ["2022"],
+          "domains": ["news.transchinese.org"],
+          "update_interval_hours": 24
+        },
+        {
+          "description": "2022 magazine articles from digital.transchinese.org",
+          "years": ["2022"],
+          "domains": ["digital.transchinese.org"],
+          "term": "杂志及新闻报道",
+          "update_interval_hours": 24
+        }
+      ]
+    },
+    {
+      "output_json": "新闻报道/json/2023.json",
+      "output_markdown": "新闻报道/2023.md",
+      "template_path": "../templates/新闻索引.template.md",
+      "include_description": true,
+      "queries": [
+        {
+          "description": "2023 news from news.transchinese.org",
+          "years": ["2023"],
+          "domains": ["news.transchinese.org"],
+          "update_interval_hours": 6
+        },
+        {
+          "description": "2023 magazine articles from digital.transchinese.org",
+          "years": ["2023"],
+          "domains": ["digital.transchinese.org"],
+          "term": "杂志及新闻报道",
+          "update_interval_hours": 6
+        }
+      ]
+    },
+    {
+      "output_json": "新闻报道/json/2024.json",
+      "output_markdown": "新闻报道/2024.md",
+      "template_path": "../templates/新闻索引.template.md",
+      "include_description": true,
+      "queries": [
+        {
+          "description": "2024 news from news.transchinese.org",
+          "years": ["2024"],
+          "domains": ["news.transchinese.org"],
+          "update_interval_hours": 1
+        },
+        {
+          "description": "2024 magazine articles from digital.transchinese.org",
+          "years": ["2024"],
+          "domains": ["digital.transchinese.org"],
+          "term": "杂志及新闻报道",
+          "update_interval_hours": 1
+        }
+      ]
+    },
+    {
+      "output_json": "新闻报道/json/2025.json",
+      "output_markdown": "新闻报道/2025.md",
+      "template_path": "../templates/新闻索引.template.md",
+      "include_description": true,
+      "queries": [
+        {
+          "description": "2025 news from news.transchinese.org",
+          "years": ["2025"],
+          "domains": ["news.transchinese.org"],
+          "update_interval_hours": 1
+        },
+        {
+          "description": "2025 magazine articles from digital.transchinese.org",
+          "years": ["2025"],
+          "domains": ["digital.transchinese.org"],
+          "update_interval_hours": 1
+        }
+      ]
+    }
+  ]
+} 
